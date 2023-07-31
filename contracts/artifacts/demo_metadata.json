@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "greet",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ANDGate.sol": "demo"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ANDGate.sol": {
+			"keccak256": "0x3a63f92be7ead4f00d3509dc8117ab73faf159e2f26c3844577a80e168a56474",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1fdb8fa7365a247d5aa39d213f31602c02fbbb835fa4ab1a1d054d9cd0ea83fc",
+				"dweb:/ipfs/QmQ6RpkRUnZespXfySVEQbxV7q2uPTBdKUDj1MWzYxAbRo"
+			]
+		}
+	},
+	"version": 1
+}

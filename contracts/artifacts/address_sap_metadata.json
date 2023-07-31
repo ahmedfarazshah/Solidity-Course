@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "balance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "myaddress",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ANDGate.sol": "address_sap"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ANDGate.sol": {
+			"keccak256": "0xee50aa4016c09a96b5045c5e986ab75ef18311ddc208ae2c96ba8d7e63bad100",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://80cee1fad5ab8ce542d21f75994bad7b9e84f48f0dfe132065a63f323ede7b1a",
+				"dweb:/ipfs/QmXpf6ePiCj2MFAZ9MZzPEjRggiRJdZhkwuLHifsgHjKno"
+			]
+		}
+	},
+	"version": 1
+}

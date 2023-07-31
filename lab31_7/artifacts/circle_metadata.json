@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "r",
+						"type": "uint256"
+					}
+				],
+				"name": "circumference_circle",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "circum",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"lab31_7/file02.sol": "circle"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"lab31_7/file02.sol": {
+			"keccak256": "0xa3fd1801289e459368e23dd3de3f1aa4f9deae818e051f247bdc4af95d73fe76",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2e132e31bf4c78ba85e16de6ea5632e1cdd20847aed646d094983fa822de604d",
+				"dweb:/ipfs/QmRCeY2eR1DSCXdiAeyvGpudWL2qH2Y3EBbBxRyhVxs1zH"
+			]
+		}
+	},
+	"version": 1
+}

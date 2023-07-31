@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "int8",
+						"name": "number",
+						"type": "int8"
+					}
+				],
+				"name": "checkNum",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Lab15/file_01.sol": "numberCheck"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Lab15/file_01.sol": {
+			"keccak256": "0x7b8e946fa1357b3929f8fd87d99e0a09f4549bad15b968011d00f8da0fe2ab83",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://849fa33c0011e1bb9e73d1b5cfce18806c7493ed75d3a877fee4f7c6044e0b96",
+				"dweb:/ipfs/QmQpT4zp9fcBYovJTkadHT7dLpMi88Vf3cvz4P1TyUAGwF"
+			]
+		}
+	},
+	"version": 1
+}

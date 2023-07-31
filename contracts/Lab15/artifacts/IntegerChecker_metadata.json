@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "age",
+						"type": "uint256"
+					}
+				],
+				"name": "checkNumber",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Lab15/file_01.sol": "IntegerChecker"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Lab15/file_01.sol": {
+			"keccak256": "0x1054531fc6dc1723ecb412bae4ff24eac2e928795824fc631e5426c9af348078",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f89d5d301707fc72e095da703ed2579967a211e8e974145e5fd5473e67577ccd",
+				"dweb:/ipfs/QmT1d81c4LY99A6KSrfvYz1KYW4hsWNAooxups5AGYegcL"
+			]
+		}
+	},
+	"version": 1
+}
