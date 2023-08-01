@@ -115,11 +115,11 @@
 	},
 	"sources": {
 		"lab(Enums && Structs)/file_structs.sol": {
-			"keccak256": "0x518dce61b0da54dff50a5ff52f32095a823b2705952c78064e0b4166bc772bb4",
+			"keccak256": "0x83b1e01b6efa5d35db3762b8e799c1c48556f0e1c494fb16a139d0956e91df2e",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://314ec4f3c707128bab36c5c04a290b467144a4400beba1959312943504f9b57f",
-				"dweb:/ipfs/QmVJgahyKbitTBSrd1k2xfyze9ZjkRHbx5bwevqme7LdeT"
+				"bzz-raw://838a2cbf18f3abab854f1382edc1ce48972f2a0a36b71298540473da0ec156c4",
+				"dweb:/ipfs/QmYMMWGF4HvPLn5ENEggx9nWzH2hHwRWs13sYfxUmxJH5A"
 			]
 		}
 	},
