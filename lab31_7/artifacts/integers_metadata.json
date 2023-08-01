@@ -9,29 +9,29 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "_i",
 						"type": "uint256"
 					}
 				],
-				"name": "arr1",
-				"outputs": [
+				"name": "del",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
 					{
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "get1",
+				"name": "int_array",
 				"outputs": [
 					{
-						"internalType": "uint256[4]",
+						"internalType": "int256",
 						"name": "",
-						"type": "uint256[4]"
+						"type": "int256"
 					}
 				],
 				"stateMutability": "view",
@@ -39,7 +39,39 @@
 			},
 			{
 				"inputs": [],
-				"name": "replace",
+				"name": "poping",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "index",
+						"type": "uint256"
+					}
+				],
+				"name": "retrive",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "number",
+						"type": "int256"
+					}
+				],
+				"name": "to_add",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -58,7 +90,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"lab31_7/array_excercise.sol": "arrays"
+			"lab31_7/array_excercise.sol": "integers"
 		},
 		"evmVersion": "paris",
 		"libraries": {},

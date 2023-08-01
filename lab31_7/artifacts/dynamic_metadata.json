@@ -13,12 +13,12 @@
 						"type": "uint256"
 					}
 				],
-				"name": "arr1",
+				"name": "arr2",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "string",
 						"name": "",
-						"type": "uint256"
+						"type": "string"
 					}
 				],
 				"stateMutability": "view",
@@ -26,12 +26,12 @@
 			},
 			{
 				"inputs": [],
-				"name": "get1",
+				"name": "get2",
 				"outputs": [
 					{
-						"internalType": "uint256[4]",
+						"internalType": "string[]",
 						"name": "",
-						"type": "uint256[4]"
+						"type": "string[]"
 					}
 				],
 				"stateMutability": "view",
@@ -39,7 +39,43 @@
 			},
 			{
 				"inputs": [],
-				"name": "replace",
+				"name": "getName",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "pop",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "firstName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "lastName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "surname",
+						"type": "string"
+					}
+				],
+				"name": "spush",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -52,13 +88,17 @@
 		},
 		"userdoc": {
 			"kind": "user",
-			"methods": {},
+			"methods": {
+				"arr2(uint256)": {
+					"notice": "dynamic array"
+				}
+			},
 			"version": 1
 		}
 	},
 	"settings": {
 		"compilationTarget": {
-			"lab31_7/array_excercise.sol": "arrays"
+			"lab31_7/array_excercise.sol": "dynamic"
 		},
 		"evmVersion": "paris",
 		"libraries": {},

@@ -13,7 +13,40 @@
 						"type": "uint256"
 					}
 				],
-				"name": "arr1",
+				"name": "arr3",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "del_declare",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "get",
+				"outputs": [
+					{
+						"internalType": "int256[4]",
+						"name": "",
+						"type": "int256[4]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getlength",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -22,26 +55,6 @@
 					}
 				],
 				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "get1",
-				"outputs": [
-					{
-						"internalType": "uint256[4]",
-						"name": "",
-						"type": "uint256[4]"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "replace",
-				"outputs": [],
-				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -58,7 +71,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"lab31_7/array_excercise.sol": "arrays"
+			"lab31_7/array_excercise.sol": "Arrayed"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
