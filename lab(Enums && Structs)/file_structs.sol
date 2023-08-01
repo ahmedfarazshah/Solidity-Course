@@ -7,6 +7,7 @@ pragma solidity ^0.8.17;
  }
 contract VotingSystem {
     // An array of 'Voter' structs
+    // for dynamic array
     Voter[] public voters;
     function create1(string memory _Name, address _addr)
         public {
