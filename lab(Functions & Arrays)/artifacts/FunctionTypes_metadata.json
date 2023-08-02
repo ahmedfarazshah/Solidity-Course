@@ -71,7 +71,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"lab31_7/file3.sol": "FunctionTypes"
+			"lab(Functions & Arrays)/file3.sol": "FunctionTypes"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -85,7 +85,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"lab31_7/file3.sol": {
+		"lab(Functions & Arrays)/file3.sol": {
 			"keccak256": "0x385dc771902911e1bcaf351b06586cb4e041d5ff950cd7d1eebb19211854aa49",
 			"license": "MIT",
 			"urls": [

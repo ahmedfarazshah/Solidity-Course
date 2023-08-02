@@ -13,12 +13,12 @@
 						"type": "uint256"
 					}
 				],
-				"name": "arr2",
+				"name": "arr1",
 				"outputs": [
 					{
-						"internalType": "string",
+						"internalType": "bool",
 						"name": "",
-						"type": "string"
+						"type": "bool"
 					}
 				],
 				"stateMutability": "view",
@@ -26,56 +26,61 @@
 			},
 			{
 				"inputs": [],
-				"name": "get2",
-				"outputs": [
-					{
-						"internalType": "string[]",
-						"name": "",
-						"type": "string[]"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getName",
+				"name": "d",
 				"outputs": [
 					{
 						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "pop",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "string",
-						"name": "firstName",
+						"name": "name",
 						"type": "string"
 					},
 					{
-						"internalType": "string",
-						"name": "lastName",
-						"type": "string"
-					},
-					{
-						"internalType": "string",
-						"name": "surname",
-						"type": "string"
+						"internalType": "uint256",
+						"name": "age",
+						"type": "uint256"
 					}
 				],
-				"name": "spush",
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "func5",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "x",
+						"type": "int256"
+					},
+					{
+						"internalType": "bool",
+						"name": "y",
+						"type": "bool"
+					},
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "length",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "push",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -88,17 +93,13 @@
 		},
 		"userdoc": {
 			"kind": "user",
-			"methods": {
-				"arr2(uint256)": {
-					"notice": "dynamic array"
-				}
-			},
+			"methods": {},
 			"version": 1
 		}
 	},
 	"settings": {
 		"compilationTarget": {
-			"lab(Functions & Arrays)/array_excercise.sol": "dynamic"
+			"for_checkingfiles.sol": "checking"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -112,12 +113,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"lab(Functions & Arrays)/array_excercise.sol": {
-			"keccak256": "0x0fc5f5e99f995184159df0a0bd0fce1b527bff95149c0375adc4e96698438a53",
+		"for_checkingfiles.sol": {
+			"keccak256": "0x520bf3688c7cf4185f45b0a1ee193d19065e9062eff73843ad7cda4772b9bc3e",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://0ac858bcad01ccd0fee9aa3b1773eaab3aea0980cc7ef139216a7c4ddcf98488",
-				"dweb:/ipfs/QmehSiHmHHcUFAvrfEKSNQ1rXdX4PHhW46rmXwFJBNWdbr"
+				"bzz-raw://7b0107bf83c027710a525b363a9b259c8e03699d69cab3394b0b5c3762f496d7",
+				"dweb:/ipfs/QmVWwsmN7FgSkqGthXPx2mnXQhoYuT47niDC6MLXnUHLgv"
 			]
 		}
 	},

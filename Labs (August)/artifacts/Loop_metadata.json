@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_num",
+						"type": "uint256"
+					}
+				],
+				"name": "PrimeChecker",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "is_prime",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Labs (August)/Loops.sol": "Loop"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Labs (August)/Loops.sol": {
+			"keccak256": "0xba3a287eb4d7f69d81e12abf81fb237276ab43124853819c72eac2ddea023828",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ed6fa5adb682db48668d41950df5a1ec1a1491c2a250d35c845a7182def4e664",
+				"dweb:/ipfs/Qmd47ox8a1uYWTPW2ewRRRkip3SM4NeXEppMs2EDAv1fBy"
+			]
+		}
+	},
+	"version": 1
+}

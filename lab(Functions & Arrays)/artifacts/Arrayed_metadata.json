@@ -71,7 +71,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"lab31_7/array_excercise.sol": "Arrayed"
+			"lab(Functions & Arrays)/array_excercise.sol": "Arrayed"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -85,7 +85,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"lab31_7/array_excercise.sol": {
+		"lab(Functions & Arrays)/array_excercise.sol": {
 			"keccak256": "0x0fc5f5e99f995184159df0a0bd0fce1b527bff95149c0375adc4e96698438a53",
 			"license": "MIT",
 			"urls": [
