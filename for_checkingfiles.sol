@@ -1,7 +1,16 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.17;
 contract checking{
-
+function push(bool A)public pure returns (bool){
+    A!= false;
+    return A;
+}
+// function updateValue(uint newValue) public view returns (bool success);
+// will add a dynamic array in the output
+function arrayOutput(uint[] memory _arr) public {}
+function get()public returns (uint){
+    
+}
 
 function func5() public pure returns(int x, bool y, int){
 
@@ -39,6 +48,52 @@ struct data{
         uint age;
 
     }
+    data[] public datas;
+    // function create()
 // name of the constructor should be added if we use brackets to assign values 
     data public d = data("Ahmed", 23);
+
+
+
+
 }
+
+
+contract new_check{
+enum ShirtSize{
+       Small, Medium, Large, ExtraLarge
+   }
+   ShirtSize public s1 = ShirtSize.Large;
+
+enum WorkingDays{
+       Monday, Tuesday, Wednesday, Thursday, Friday
+   }
+   WorkingDays public w1;
+   WorkingDays public w3;
+
+   function set(WorkingDays _w) public{
+       w1 = _w;
+   }
+
+enum WorkingDayss{
+       Monday, Tuesday, Wednesday, Thursday, Friday
+   }
+   WorkingDayss public w5;
+
+   function idelete() public{
+       delete w5;
+   }
+
+string[] public people;
+
+function check() public view returns (uint){
+
+    // return people[0].
+}
+
+
+
+
+
+}
+
