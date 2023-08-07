@@ -1,0 +1,18 @@
+/**
+ * Minified by jsDelivr using Terser v5.19.0.
+ * Original file: /npm/remix@1.19.2/dist/index.js
+ *
+ * Do NOT use SRI with dynamically generated files! More information: https://www.jsdelivr.com/using-sri-with-dynamic-files
+ */
+/**
+ * remix v1.19.2
+ *
+ * Copyright (c) Remix Software Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE.md file in the root directory of this source tree.
+ *
+ * @license MIT
+ */
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});class RemixNotSetupError extends Error{constructor(){super("Did you forget to run `remix setup` for your platform?")}}throw new RemixNotSetupError;
+//# sourceMappingURL=/sm/de6b82b42db9a27e342af628d12cd035efac67e89fd830c980ea16c8e23867b1.map

@@ -1,0 +1,189 @@
+'use strict';
+
+var Bundle;
+var Cache;
+var EventEmitter;
+var Runtime;
+
+var hasProperty;
+
+Bundle = /** @type Bundle */ require('./util/Bundle');
+Cache = /** @type Cache */ require('./util/Cache');
+EventEmitter = /** @type EventEmitter */ require('events').EventEmitter;
+Runtime = /** @type Runtime */ require('./util/Runtime');
+
+hasProperty = Object.prototype.hasOwnProperty;
+
+/**
+ * @class Provider
+ * @extends EventEmitter
+ * */
+function Provider () {
+
+    EventEmitter.apply(this, arguments);
+
+    /**
+     * @private
+     * @memberOf {Provider}
+     * @property {Object}
+     * */
+    this.__decls__ = {};
+
+    /**
+     * @public
+     * @memberOf {Provider}
+     * @property {Cache}
+     * */
+    this.cache = this._createCache();
+}
+
+Provider.prototype = Object.create(EventEmitter.prototype);
+
+/**
+ * @protected
+ * @memberOf {Provider}
+ * @method
+ * */
+Provider.prototype.constructor = Provider;
+
+/**
+ * @public
+ * @memberOf {Provider}
+ * @method
+ *
+ * @param {Object|String} path
+ * @param {*} [decl]
+ * @param {String} [decl.alias]
+ * @param {*} [decl.data]
+ * @param {String|Array<String>} [decl.deps]
+ * @param {Number} [decl.expires]
+ *
+ * @returns {?}
+ * */
+Provider.prototype.decl = function (path, decl) {
+
+    var decls;
+
+    if ( Object(path) === path ) {
+        decls = path;
+
+        for ( path in decls ) {
+
+            /*jshint forin: false */
+            if ( !hasProperty.call(decls, path) ) {
+
+                continue;
+            }
+
+            this.decl(path, decls[path]);
+        }
+
+        return;
+    }
+
+    if ( 2 > arguments.length ) {
+
+        return hasProperty.call(this.__decls__, path) ?
+            this.__decls__[path] : {};
+    }
+
+    if ( 2 < arguments.length ) {
+        // path, deps, data
+        this.__decls__[path] = {
+            data: arguments[2],
+            deps: decl
+        };
+
+        return;
+    }
+
+    if ( Object(decl) !== decl || 'function' === typeof decl ) {
+        this.__decls__[path] = {
+            data: decl
+        };
+
+        return;
+    }
+
+    this.__decls__[path] = decl;
+};
+
+/**
+ * @public
+ * @memberOf {Provider}
+ * @method
+ *
+ * @param {String} goal
+ *
+ * @returns {String}
+ * */
+Provider.prototype.getPath = function (goal) {
+
+    var decl;
+
+    if ( hasProperty.call(this.__decls__, goal) ) {
+        decl = this.__decls__[goal];
+
+        if ( hasProperty.call(decl, 'alias') ) {
+
+            return decl.alias;
+        }
+    }
+
+    return goal;
+};
+
+/**
+ * @public
+ * @memberOf {Provider}
+ * @method
+ *
+ * @param {*} params
+ * @param {Array<String>|String} goals
+ *
+ * @returns {JSPromise}
+ * */
+Provider.prototype.provide = function (params, goals) {
+
+    return this._createRuntime(params).resolve(goals);
+};
+
+/**
+ * @public
+ * @memberOf {Provider}
+ * @method
+ *
+ * @returns {Bundle}
+ * */
+Provider.prototype.createBundle = function () {
+
+    return new Bundle();
+};
+
+/**
+ * @protected
+ * @memberOf {Provider}
+ * @method
+ *
+ * @returns {Cache}
+ * */
+Provider.prototype._createCache = function () {
+
+    return new Cache();
+};
+
+/**
+ * @protected
+ * @memberOf {Provider}
+ * @method
+ *
+ * @param {*} [params]
+ *
+ * @returns {Runtime}
+ * */
+Provider.prototype._createRuntime = function (params) {
+
+    return new Runtime(this, params);
+};
+
+module.exports = Provider;

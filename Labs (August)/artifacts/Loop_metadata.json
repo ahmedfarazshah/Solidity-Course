@@ -53,11 +53,11 @@
 	},
 	"sources": {
 		"Labs (August)/Loops.sol": {
-			"keccak256": "0xba3a287eb4d7f69d81e12abf81fb237276ab43124853819c72eac2ddea023828",
+			"keccak256": "0x54e70c11fd9b1aa682df6296ee079616f72dd1f92534792a6b53a26c913fc9e3",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://ed6fa5adb682db48668d41950df5a1ec1a1491c2a250d35c845a7182def4e664",
-				"dweb:/ipfs/Qmd47ox8a1uYWTPW2ewRRRkip3SM4NeXEppMs2EDAv1fBy"
+				"bzz-raw://503b40b35edd38c47821389c36efb4e659c84e34267a93f8be98e7660456dc66",
+				"dweb:/ipfs/QmYm7xA7hRE7ARiVUX9GjLvj13PinfHWs3R36yZtwRRuHj"
 			]
 		}
 	},

@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-3.0
 
 pragma solidity >=0.7.0 <0.9.0;
-import "remix_tests.sol";
-import "remix_accounts.sol";
+import "../.deps/remix-tests/remix_tests.sol";
+import "../.deps/remix-tests/remix_accounts.sol";
 import "../contracts/MyToken.sol";
 
 contract MyTokenTest is MyToken {
@@ -14,11 +14,11 @@ contract MyTokenTest is MyToken {
     address acc4;
 
     function beforeAll() public {
-        acc0 = TestsAccounts.getAccount(0); 
-        acc1 = TestsAccounts.getAccount(1);
-        acc2 = TestsAccounts.getAccount(2);
-        acc3 = TestsAccounts.getAccount(3);
-        acc4 = TestsAccounts.getAccount(4);
+        acc0 = TestsAccounts.getAccount(); 
+        acc1 = TestsAccounts.getAccount();
+        acc2 = TestsAccounts.getAccount();
+        acc3 = TestsAccounts.getAccount();
+        acc4 = TestsAccounts.getAccount();
     }
 
     function testTokenInitialValues() public {
