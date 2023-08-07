@@ -9,11 +9,24 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "cond",
+						"name": "max",
 						"type": "uint256"
 					}
 				],
-				"name": "iterate",
+				"name": "ODDNum",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "arr",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -21,7 +34,20 @@
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "pure",
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "get",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -38,7 +64,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Labs (August)/do_while.sol": "Loop"
+			"Labs (August)/do_while.sol": "Loops"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -53,11 +79,11 @@
 	},
 	"sources": {
 		"Labs (August)/do_while.sol": {
-			"keccak256": "0x97b41f8888b7240c81c8a415cc78f0f90a036a82f4e2673216dcce652700a9fd",
+			"keccak256": "0xc8519565d51956112e4abe0ac42d24138990a6f4a72d13a91bed5fc0eabc04aa",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://e5e39aaece8ca28aa7ba98b8377c0863989584b99aac60251f9844ca38fc65ae",
-				"dweb:/ipfs/QmWWXsedmoYubzRCwZDuJ2YNFaYsbbdXwaQ6s4tV74Uoyc"
+				"bzz-raw://c19b57dea491bfc7bcd7e1a3180d522701f5d3c76ec9f1d2ffc6bbbcd628d7d1",
+				"dweb:/ipfs/QmU1hPpGLycAFdWa1Sde7k7BxgDwVxZvwLKXg45v52Es1i"
 			]
 		}
 	},
