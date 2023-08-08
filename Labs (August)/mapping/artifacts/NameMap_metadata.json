@@ -8,17 +8,56 @@
 			{
 				"inputs": [
 					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"name": "UserMap",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "birthYear",
+						"type": "uint256"
+					},
+					{
 						"internalType": "address",
 						"name": "addr",
 						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "codename",
+						"type": "string"
 					}
 				],
 				"name": "get",
 				"outputs": [
 					{
-						"internalType": "enum Student.day",
+						"internalType": "string",
 						"name": "",
-						"type": "uint8"
+						"type": "string"
 					}
 				],
 				"stateMutability": "view",
@@ -27,17 +66,22 @@
 			{
 				"inputs": [
 					{
-						"internalType": "enum Student.day",
-						"name": "working_day",
-						"type": "uint8"
+						"internalType": "uint256",
+						"name": "birthYear",
+						"type": "uint256"
 					},
 					{
 						"internalType": "address",
-						"name": "_addr",
+						"name": "addr",
 						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "codename",
+						"type": "string"
 					}
 				],
-				"name": "set",
+				"name": "reset",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -46,60 +90,28 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "age",
+						"name": "birthYear",
 						"type": "uint256"
 					},
 					{
 						"internalType": "address",
-						"name": "_addr",
+						"name": "addr",
 						"type": "address"
-					}
-				],
-				"name": "setAge",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
+					},
 					{
 						"internalType": "string",
-						"name": "_name",
+						"name": "codename",
 						"type": "string"
 					},
 					{
-						"internalType": "address",
-						"name": "_addr",
-						"type": "address"
+						"internalType": "string",
+						"name": "username",
+						"type": "string"
 					}
 				],
-				"name": "setName",
+				"name": "setMap",
 				"outputs": [],
 				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"name": "ss",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "name",
-						"type": "string"
-					},
-					{
-						"internalType": "uint256",
-						"name": "age",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -116,7 +128,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"structs.sol": "Student"
+			"Labs (August)/mapping/file2.sol": "NameMap"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -130,12 +142,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"structs.sol": {
-			"keccak256": "0xcc1fe33cfaad2ab3ac170b70239bcfa179daa645f1df97a94221beac06373a3b",
+		"Labs (August)/mapping/file2.sol": {
+			"keccak256": "0x787ae6a0026e6d7e9a8c6e20f57120308a91246b6dfef304fdb67ddc3ebbb2e3",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://5d9210e4a2eccec4f7ce5ca16d529d04ca65184c53c52d432b86afa5e8234a44",
-				"dweb:/ipfs/QmT2CZhaSqgi69Rs7oAixhHDxhskTcqjbXMHVWJMxNMEEB"
+				"bzz-raw://553cb12138900e6b95deb21d40836ad19c1ed95ff1e96512a99dbde155412136",
+				"dweb:/ipfs/Qmc3dJyVwNhwCzeQf9HyxnfdPEuhWuSJXt5Cqa5ZNwoTKo"
 			]
 		}
 	},

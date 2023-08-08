@@ -1,20 +1,19 @@
 {
 	"compiler": {
-		"version": "0.8.18+commit.87f61d96"
+		"version": "0.8.21+commit.d9974bed"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "add",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getter",
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "originalArray",
+						"type": "uint256[]"
+					}
+				],
+				"name": "modifyMemory",
 				"outputs": [
 					{
 						"internalType": "uint256[]",
@@ -22,7 +21,7 @@
 						"type": "uint256[]"
 					}
 				],
-				"stateMutability": "view",
+				"stateMutability": "pure",
 				"type": "function"
 			}
 		],
@@ -39,9 +38,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Labs (August)/nested_for.sol": "MerkleTree"
+			"Labs (August)/mapping/data_locations.sol": "MemoryAssignment"
 		},
-		"evmVersion": "paris",
+		"evmVersion": "shanghai",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -53,12 +52,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Labs (August)/nested_for.sol": {
-			"keccak256": "0xe2206d5124671dd7db2509b2ff4db36dbd98177e0c117e8cc27b91ec9e84e75c",
+		"Labs (August)/mapping/data_locations.sol": {
+			"keccak256": "0xdfd9e1e47522512bde713a0a3cbc08794ed60a23740ad8b51d5d9960dddea4ec",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://a088ddfc3914604f381481ebeeb9cc20fa93f00b3a2af33ec22d54c3aa8a84d0",
-				"dweb:/ipfs/QmQbvWWsGRrG6QLpotCNU2SQTGVLdLtSB74Jsb1SvdDmdu"
+				"bzz-raw://1e747bcf70a3645e49b1940cc8d76e169556fb5312821af58b08609d78f28ac6",
+				"dweb:/ipfs/Qmc2rjBK86zbNjDjHScbPku5e4pKNT7gTtY8uJhZQPfLa7"
 			]
 		}
 	},

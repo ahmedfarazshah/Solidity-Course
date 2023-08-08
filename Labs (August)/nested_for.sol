@@ -2,22 +2,27 @@
 pragma solidity ^0.8.17;
 
 contract MerkleTree {
+    // Sum(H1,H2,H3,H4)
+    // / \
+    // Sum(H1,H2) Sum(H3,H4)
+    // / \ / \
+    // H1 H2 H3 H4
+    uint256[] arr = [1,1,1,1,1];
 
-    function func_name() public pure returns (uint){
-        uint p1 = 123456;
-        uint p2 = 456789;
-        uint p3 = 876543;
-        uint p4 = 876542;
-    
-
-        // while(p1){
-        //     for(p1;)
-        // }
-
-        
-    
-
-
-
+    function add() public {
+        while (arr.length != 1) {
+            if (arr.length % 2 == 1) {
+                arr.push(0);
+            }
+            for (uint256 i = 0; i < arr.length / 2; i++) {
+                arr[i] = arr[i * 2] + arr[(i * 2) + 1];
+            }
+            for (uint256 i = 0; i < arr.length; i++) {
+                arr.pop();
+            }
+        }
+    }
+    function getter() public view returns (uint256[] memory) {
+        return arr;
     }
 }
