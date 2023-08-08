@@ -30,3 +30,21 @@ contract Looped{
         return arr;
         }
 }
+
+contract looped_doWhile{
+        uint[] public array;
+        function oddNums(uint number) public {
+            uint i = 1 ;
+            do{
+               if (i%2 !=0)
+               array.push(i);
+               i++;
+            }while (i <= number);
+        }   
+        function get()public view returns (uint[]memory){
+            return array;
+        }
+}
+
+
+

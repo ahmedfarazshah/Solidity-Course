@@ -6,16 +6,16 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
+				"inputs": [],
+				"name": "get",
+				"outputs": [
 					{
-						"internalType": "uint256",
-						"name": "max",
-						"type": "uint256"
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
 					}
 				],
-				"name": "ODDNum",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -26,7 +26,7 @@
 						"type": "uint256"
 					}
 				],
-				"name": "arr",
+				"name": "numtable",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -39,15 +39,22 @@
 			},
 			{
 				"inputs": [],
-				"name": "get",
-				"outputs": [
+				"name": "resetarr",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
 					{
-						"internalType": "uint256[]",
-						"name": "",
-						"type": "uint256[]"
+						"internalType": "uint256",
+						"name": "num",
+						"type": "uint256"
 					}
 				],
-				"stateMutability": "view",
+				"name": "table",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -64,7 +71,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Labs (August)/do_while.sol": "Looped"
+			"Labs (August)/for_loops.sol": "ForLoop"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -78,12 +85,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Labs (August)/do_while.sol": {
-			"keccak256": "0xa8dcda99333b20baacdf0519c8c717c3924cd464252959cba7b0fcc4e3cafb22",
+		"Labs (August)/for_loops.sol": {
+			"keccak256": "0x41340b299321a46427c7aa7c20f7636543ea379a54b391c47cc0058485e5310d",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://b7b99be7ac7bd2314688fccbe182d27c837efcbf178cd979eb4ff4eb2273abb2",
-				"dweb:/ipfs/QmZkndQhtqeRiM7NShngmAZVRNMfWFsr2y5k7vs4cQQJXk"
+				"bzz-raw://9b0503b4d63243eaedc26b45cb27651e837c103c50935efe48a136780dc40ae5",
+				"dweb:/ipfs/QmNziD2VLFi5ynyG4SxmnegNxo6ipd6M1huYCRGjTqgj4V"
 			]
 		}
 	},

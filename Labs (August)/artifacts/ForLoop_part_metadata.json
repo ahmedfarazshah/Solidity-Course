@@ -9,13 +9,32 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "max",
+						"name": "",
 						"type": "uint256"
 					}
 				],
-				"name": "ODDNum",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"name": "arr",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getposit",
+				"outputs": [
+					{
+						"internalType": "int256[]",
+						"name": "",
+						"type": "int256[]"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -26,12 +45,12 @@
 						"type": "uint256"
 					}
 				],
-				"name": "arr",
+				"name": "positarr",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "int256",
 						"name": "",
-						"type": "uint256"
+						"type": "int256"
 					}
 				],
 				"stateMutability": "view",
@@ -39,15 +58,9 @@
 			},
 			{
 				"inputs": [],
-				"name": "get",
-				"outputs": [
-					{
-						"internalType": "uint256[]",
-						"name": "",
-						"type": "uint256[]"
-					}
-				],
-				"stateMutability": "view",
+				"name": "positivepart",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -64,7 +77,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Labs (August)/do_while.sol": "Looped"
+			"Labs (August)/for_loops.sol": "ForLoop_part"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -78,12 +91,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Labs (August)/do_while.sol": {
-			"keccak256": "0xa8dcda99333b20baacdf0519c8c717c3924cd464252959cba7b0fcc4e3cafb22",
+		"Labs (August)/for_loops.sol": {
+			"keccak256": "0xee6a03923d7a42a96acbbee0341dff5127617fd6f9d7f2ae552c64785c73e112",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://b7b99be7ac7bd2314688fccbe182d27c837efcbf178cd979eb4ff4eb2273abb2",
-				"dweb:/ipfs/QmZkndQhtqeRiM7NShngmAZVRNMfWFsr2y5k7vs4cQQJXk"
+				"bzz-raw://9c8c04b2909afc6ba681e6a16e458e6dc0a15c1dfbab30746235b8a1b1dbbd44",
+				"dweb:/ipfs/Qmd2GComMPoR2TEPsRL8iNJE2nTr5fzXmXPXsT7XRVJvKM"
 			]
 		}
 	},
