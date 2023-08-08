@@ -14,11 +14,11 @@ contract MyTokenTest is MyToken {
     address acc4;
 
     function beforeAll() public {
-        acc0 = TestsAccounts.getAccount(); 
-        acc1 = TestsAccounts.getAccount();
-        acc2 = TestsAccounts.getAccount();
-        acc3 = TestsAccounts.getAccount();
-        acc4 = TestsAccounts.getAccount();
+        acc0 = TestsAccounts.getAccount(0); 
+        acc1 = TestsAccounts.getAccount(1);
+        acc2 = TestsAccounts.getAccount(2);
+        acc3 = TestsAccounts.getAccount(3);
+        acc4 = TestsAccounts.getAccount(4);
     }
 
     function testTokenInitialValues() public {
