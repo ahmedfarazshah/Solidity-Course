@@ -32,4 +32,6 @@ contract Mappings{
     function remove(address _addr, string memory _walletname,string memory surname) public{
         delete AddrWalletToName[_addr][_walletname][surname];
     }
+
 }
+

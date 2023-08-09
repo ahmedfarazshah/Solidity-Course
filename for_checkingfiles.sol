@@ -1,5 +1,24 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.17;
+
+
+contract mapchecking{
+    mapping (string => mapping(address=> uint)) mas;
+
+    function set(uint[] memory _x) public pure returns (uint[] memory){
+        _x[0]=0;
+        return (_x);
+    }
+    uint [] arr;
+    function r(uint[] calldata _arr) public {
+        // _arr[0]=1;
+    }
+
+
+}
+
+
+
 contract checking{
 function push(bool A)public pure returns (bool){
     A!= false;

@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.21+commit.d9974bed"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_address",
+						"type": "address"
+					}
+				],
+				"name": "addAddress",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Labs (August)/mapping/file1.sol": "checking"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Labs (August)/mapping/file1.sol": {
+			"keccak256": "0x6ad31e180bc2f8fab56007b3306c42c50de12d2b7f0124735f122fbc79007450",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4c60c64d55ce16fd8f2824b2287c69c046264957efbd0ca59bd323d05956f4a9",
+				"dweb:/ipfs/QmXVjivk6WEa2Kamxvc6tDDtw9ZJssSSsWR5Kiq8YhXPcP"
+			]
+		}
+	},
+	"version": 1
+}

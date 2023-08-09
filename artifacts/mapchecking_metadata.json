@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.21+commit.d9974bed"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "_arr",
+						"type": "uint256[]"
+					}
+				],
+				"name": "r",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "_x",
+						"type": "uint256[]"
+					}
+				],
+				"name": "set",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"for_checkingfiles.sol": "mapchecking"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"for_checkingfiles.sol": {
+			"keccak256": "0x391f96dbad3c1eecda67a89ea23e38229c792922c1de716ea822c23767468ea6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3060a59f26e1e708de099a92499f8bbf01dedde9825d7c6b7ff9fd87d819c8ae",
+				"dweb:/ipfs/QmeiEQvWQbFqHypQNjv2Z1s2RKxcNUNc8TXsdEQs6rnX3Y"
+			]
+		}
+	},
+	"version": 1
+}

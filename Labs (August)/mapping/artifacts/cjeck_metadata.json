@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.21+commit.d9974bed"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "i",
+						"type": "uint256"
+					}
+				],
+				"name": "get",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Labs (August)/mapping/file1.sol": "cjeck"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Labs (August)/mapping/file1.sol": {
+			"keccak256": "0xbf86ac8ec9e055d4df9c4923dcd898aff9f93ff8e4b0e63f00bd002f1c69f22b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3153d75f332d8ad6e96548ce33a5e7ce078380b52cf0afefa1e9217338d57896",
+				"dweb:/ipfs/QmevMPitYAVLsQULzbAKP69DPpGvFjXLEaWKZoyP6g5cQD"
+			]
+		}
+	},
+	"version": 1
+}
