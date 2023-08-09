@@ -6,26 +6,20 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "iterations",
-						"type": "uint256"
-					}
-				],
-				"name": "consumeGas",
+				"inputs": [],
+				"name": "get",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "count",
+				"name": "w1",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "enum quiz.weekend",
 						"name": "",
-						"type": "uint256"
+						"type": "uint8"
 					}
 				],
 				"stateMutability": "view",
@@ -45,7 +39,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contract.sol": "GasConsumer"
+			"for_checkingfiles.sol": "quiz"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -59,12 +53,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contract.sol": {
-			"keccak256": "0x6caff04a152436f24c00198f73f298df8496916555a20f9dcb4b55e191393e7d",
+		"for_checkingfiles.sol": {
+			"keccak256": "0x9275660b03e01db432fcfef42dc9655b47c9c7c12d0f04f26460205f91f58722",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://ccb846d11d539a86c9f271a00f76f13fe42eaf1db51cbf000362f65b2ed2af25",
-				"dweb:/ipfs/QmYBGFNBtS9NVj5Yt9ixVxxQpPsjrzmETpLrdZGfoc3hjz"
+				"bzz-raw://db071b40950e886bab7a04416aa246770a6d32740ddcc96dd0f3a6bab40a63f4",
+				"dweb:/ipfs/QmVmQASCwu7SMufyV4d5pCYKjt4W7zofdA5eiJLJf4MG3u"
 			]
 		}
 	},

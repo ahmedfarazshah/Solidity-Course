@@ -20,7 +20,7 @@ contract MerkleTree {
             for (uint256 i = 0; i < arr.length; i++) {
                 arr.pop();
             }
-        }
+        // }
     }
     function getter() public view returns (uint256[] memory) {
         return arr;

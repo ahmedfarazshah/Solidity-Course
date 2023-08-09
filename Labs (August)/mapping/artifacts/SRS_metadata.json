@@ -1,0 +1,178 @@
+{
+	"compiler": {
+		"version": "0.8.21+commit.d9974bed"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "_student",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "age",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "registration_date",
+						"type": "uint256"
+					},
+					{
+						"internalType": "enum SRS.Department",
+						"name": "_department",
+						"type": "uint8"
+					},
+					{
+						"internalType": "enum SRS.Status",
+						"name": "_status",
+						"type": "uint8"
+					},
+					{
+						"internalType": "uint256",
+						"name": "MarksObtained",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "indices",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "age",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "rollnumber",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "registration_date",
+						"type": "uint256"
+					},
+					{
+						"internalType": "enum SRS.Department",
+						"name": "_department",
+						"type": "uint8"
+					},
+					{
+						"internalType": "enum SRS.Status",
+						"name": "_status",
+						"type": "uint8"
+					},
+					{
+						"internalType": "uint256",
+						"name": "MarksObtained",
+						"type": "uint256"
+					}
+				],
+				"name": "register",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "s1",
+				"outputs": [
+					{
+						"internalType": "enum SRS.Status",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "studentslist",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Labs (August)/mapping/final_08.sol": "SRS"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Labs (August)/mapping/final_08.sol": {
+			"keccak256": "0x06da3cc5acacc50e804de02646aa3c944737c4e4a4bca803784b874f4cb39a92",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://16aafcd39232f3f3d3951fc54e39dadba88a770936a98855314d629433d16811",
+				"dweb:/ipfs/QmX38KbNbbn6WcNDMP24bJpvUw4g76sw8Cgx7bSpH7PPce"
+			]
+		}
+	},
+	"version": 1
+}

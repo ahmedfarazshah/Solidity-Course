@@ -2,6 +2,38 @@
 pragma solidity ^0.8.17;
 
 
+
+contract quiz{
+    enum weekend{
+        sunday,monday
+    }
+    weekend public w1 = weekend(0);
+    // function update (uint i)public {
+    //     w1= weekend(i);
+    // }
+    function get() public{
+        if(w1== weekend.sunday){
+            w1 = weekend.monday;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 contract mapchecking{
     mapping (string => mapping(address=> uint)) mas;
 
