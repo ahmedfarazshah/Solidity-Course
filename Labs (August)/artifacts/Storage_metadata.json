@@ -7,33 +7,7 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "check",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "idelete",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"name": "people",
+				"name": "for_memory",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -46,38 +20,12 @@
 			},
 			{
 				"inputs": [],
-				"name": "s1",
+				"name": "newValue",
 				"outputs": [
 					{
-						"internalType": "enum new_check.ShirtSize",
+						"internalType": "uint256",
 						"name": "",
-						"type": "uint8"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "enum new_check.WorkingDays",
-						"name": "_w",
-						"type": "uint8"
-					}
-				],
-				"name": "set",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "w1",
-				"outputs": [
-					{
-						"internalType": "enum new_check.WorkingDays",
-						"name": "",
-						"type": "uint8"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -85,12 +33,12 @@
 			},
 			{
 				"inputs": [],
-				"name": "w3",
+				"name": "value1",
 				"outputs": [
 					{
-						"internalType": "enum new_check.WorkingDays",
+						"internalType": "uint256",
 						"name": "",
-						"type": "uint8"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -98,12 +46,38 @@
 			},
 			{
 				"inputs": [],
-				"name": "w5",
+				"name": "value2",
 				"outputs": [
 					{
-						"internalType": "enum new_check.WorkingDayss",
+						"internalType": "uint128",
 						"name": "",
-						"type": "uint8"
+						"type": "uint128"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "value3",
+				"outputs": [
+					{
+						"internalType": "uint128",
+						"name": "",
+						"type": "uint128"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "value4",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
 					}
 				],
 				"stateMutability": "view",
@@ -123,7 +97,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"for_checkingfiles.sol": "new_check"
+			"Labs (August)/dataLocations.sol": "Storage"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -137,12 +111,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"for_checkingfiles.sol": {
-			"keccak256": "0x6edd61b41fd286b7becc61895715f9addda6fabe7b1f619780b71803973a054d",
+		"Labs (August)/dataLocations.sol": {
+			"keccak256": "0x6357653114b64d961f52a7a50f98c90ca5e59e6e36aa920332a5bbb8eb3061c0",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://1b4f99a84d89f4b3af00ca2059e7a0b833194080c418413ac9f77a47f830298c",
-				"dweb:/ipfs/QmaLUyfthBn2dbmnByaGcCzdBYt38XCJu4idSGbsLQ45CG"
+				"bzz-raw://20235cdd3a8c22cf67f1b25841d0cd2a45d26c165dab472241e8ac67379d0777",
+				"dweb:/ipfs/QmR7YBKgWfAgx9NhjrxXt3qmM3hR3hKV9QCyogrXFEA7jV"
 			]
 		}
 	},

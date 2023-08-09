@@ -14,6 +14,7 @@ contract mapchecking{
         // _arr[0]=1;
     }
 
+    
 
 }
 
@@ -28,7 +29,11 @@ function push(bool A)public pure returns (bool){
 // will add a dynamic array in the output
 function arrayOutput(uint[] memory _arr) public {}
 function get()public returns (uint){
-    
+
+
+
+
+
 }
 
 function func5() public pure returns(int x, bool y, int){
