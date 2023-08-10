@@ -36,7 +36,7 @@
 			{
 				"inputs": [
 					{
-						"internalType": "enum SRS.Department",
+						"internalType": "enum SRS02.Department",
 						"name": "",
 						"type": "uint8"
 					}
@@ -80,12 +80,12 @@
 								"type": "uint256"
 							},
 							{
-								"internalType": "enum SRS.Department",
+								"internalType": "enum SRS02.Department",
 								"name": "_department",
 								"type": "uint8"
 							},
 							{
-								"internalType": "enum SRS.Status",
+								"internalType": "enum SRS02.Status",
 								"name": "_status",
 								"type": "uint8"
 							},
@@ -95,7 +95,7 @@
 								"type": "uint256"
 							}
 						],
-						"internalType": "struct SRS.Student",
+						"internalType": "struct SRS02.Student",
 						"name": "",
 						"type": "tuple"
 					}
@@ -145,12 +145,12 @@
 						"type": "uint256"
 					},
 					{
-						"internalType": "enum SRS.Department",
+						"internalType": "enum SRS02.Department",
 						"name": "_department",
 						"type": "uint8"
 					},
 					{
-						"internalType": "enum SRS.Status",
+						"internalType": "enum SRS02.Status",
 						"name": "_status",
 						"type": "uint8"
 					},
@@ -163,6 +163,19 @@
 				"name": "register",
 				"outputs": [],
 				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "s1",
+				"outputs": [
+					{
+						"internalType": "enum SRS02.Status",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -191,12 +204,12 @@
 						"type": "uint256"
 					},
 					{
-						"internalType": "enum SRS.Department",
+						"internalType": "enum SRS02.Department",
 						"name": "_department",
 						"type": "uint8"
 					},
 					{
-						"internalType": "enum SRS.Status",
+						"internalType": "enum SRS02.Status",
 						"name": "_status",
 						"type": "uint8"
 					},
@@ -231,12 +244,12 @@
 								"type": "uint256"
 							},
 							{
-								"internalType": "enum SRS.Department",
+								"internalType": "enum SRS02.Department",
 								"name": "_department",
 								"type": "uint8"
 							},
 							{
-								"internalType": "enum SRS.Status",
+								"internalType": "enum SRS02.Status",
 								"name": "_status",
 								"type": "uint8"
 							},
@@ -246,7 +259,7 @@
 								"type": "uint256"
 							}
 						],
-						"internalType": "struct SRS.Student",
+						"internalType": "struct SRS02.Student",
 						"name": "",
 						"type": "tuple"
 					},
@@ -268,12 +281,12 @@
 								"type": "uint256"
 							},
 							{
-								"internalType": "enum SRS.Department",
+								"internalType": "enum SRS02.Department",
 								"name": "_department",
 								"type": "uint8"
 							},
 							{
-								"internalType": "enum SRS.Status",
+								"internalType": "enum SRS02.Status",
 								"name": "_status",
 								"type": "uint8"
 							},
@@ -283,7 +296,7 @@
 								"type": "uint256"
 							}
 						],
-						"internalType": "struct SRS.Student",
+						"internalType": "struct SRS02.Student",
 						"name": "",
 						"type": "tuple"
 					},
@@ -305,12 +318,12 @@
 								"type": "uint256"
 							},
 							{
-								"internalType": "enum SRS.Department",
+								"internalType": "enum SRS02.Department",
 								"name": "_department",
 								"type": "uint8"
 							},
 							{
-								"internalType": "enum SRS.Status",
+								"internalType": "enum SRS02.Status",
 								"name": "_status",
 								"type": "uint8"
 							},
@@ -320,7 +333,7 @@
 								"type": "uint256"
 							}
 						],
-						"internalType": "struct SRS.Student",
+						"internalType": "struct SRS02.Student",
 						"name": "",
 						"type": "tuple"
 					}
@@ -351,12 +364,12 @@
 						"type": "uint256"
 					},
 					{
-						"internalType": "enum SRS.Department",
+						"internalType": "enum SRS02.Department",
 						"name": "_department",
 						"type": "uint8"
 					},
 					{
-						"internalType": "enum SRS.Status",
+						"internalType": "enum SRS02.Status",
 						"name": "_status",
 						"type": "uint8"
 					},
@@ -385,7 +398,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Labs (August)/mapping/final_08.sol": "SRS"
+			"Labs (August)/mapping/final_08.sol": "SRS02"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -400,11 +413,11 @@
 	},
 	"sources": {
 		"Labs (August)/mapping/final_08.sol": {
-			"keccak256": "0x474c518faa226f8c1e20eed547049cc5b028120359ac14575e434e3a2e27cd56",
+			"keccak256": "0xa80c4e992ac397c6ff769acffd7ec94100f37e1d11d9a092e1ac9d00a5f920f8",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://0a9a0d96a9f8dbad049387a9a36cda4772481185270efea9a51822c5560f93a8",
-				"dweb:/ipfs/QmaeYidFZctKT9RMvTJodLQaALHwyN9kUfM3uVrvF4iEUC"
+				"bzz-raw://d665da5f7b9c7e34652bfb84f9ab265714b82e50155b917b88361a6976658756",
+				"dweb:/ipfs/QmSTeTtDfz6XpA6Y3B5Da6EJMLso3AUaML9QWJgf8FYAnE"
 			]
 		}
 	},

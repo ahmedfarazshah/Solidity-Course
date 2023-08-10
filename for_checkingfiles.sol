@@ -5,16 +5,25 @@ pragma solidity ^0.8.17;
 
 contract quiz{
     enum weekend{
-        sunday,monday
+        monday,tuesday,wednesday,thursday
     }
-    weekend public w1 = weekend(0);
-    // function update (uint i)public {
-    //     w1= weekend(i);
-    // }
-    function get() public{
-        if(w1== weekend.sunday){
-            w1 = weekend.monday;
+    weekend public w2 = weekend(2);
+    weekend public w1;
+    function update (uint i)public {
+        w1= weekend(i);
+    }
+
+    function get() public {
+        if(w2 == weekend.wednesday){
+            w2 = weekend.thursday;
         }
+        if (w1==weekend(1)){
+            delete w2;
+        }
+        // if(w1== weekend.sunday){
+            // return w1;
+            // w1 = weekend.monday;
+        
     }
 }
 
