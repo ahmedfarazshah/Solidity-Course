@@ -6,19 +6,23 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"name": "week",
+				"inputs": [],
+				"name": "user1",
 				"outputs": [
 					{
-						"internalType": "enum quiz.Week",
-						"name": "",
-						"type": "uint8"
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "age",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "addr",
+						"type": "address"
 					}
 				],
 				"stateMutability": "view",
@@ -38,7 +42,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"for_checkingfiles.sol": "quiz"
+			"for_checkingfiles.sol": "srrrrr"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -53,11 +57,11 @@
 	},
 	"sources": {
 		"for_checkingfiles.sol": {
-			"keccak256": "0xc7f0b93e8a8b328741f7c7c0407caeff71dcb794007f39d30f5518b15c5d357a",
+			"keccak256": "0x4be3763532d46fc187f7e4d09748a874da803f0036980d68e166436f05c0e1e0",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://1d9e5ce26932a969687824614a0c55120b660cb1e6f532e493acd02837dce3c7",
-				"dweb:/ipfs/QmWWmAKE7XjeckPYpsG2SfwYuFCHmZCoEEzvB4oa2TA5KH"
+				"bzz-raw://6bf6fd3f7190e5267257b1745a7fab1c0c0e7fb26c566e046665b310e1351c5f",
+				"dweb:/ipfs/QmZQgpmnNoBcgG92RjoBYLSpvFuv4T3vAxbinVpcPmM1Sw"
 			]
 		}
 	},

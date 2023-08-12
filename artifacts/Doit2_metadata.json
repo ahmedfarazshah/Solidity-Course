@@ -6,35 +6,43 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
+				"inputs": [],
+				"name": "i",
+				"outputs": [
 					{
-						"internalType": "uint256[]",
-						"name": "_arr",
-						"type": "uint256[]"
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
 					}
 				],
-				"name": "r",
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "life",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "span",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "uint256[]",
-						"name": "_x",
-						"type": "uint256[]"
-					}
-				],
-				"name": "set",
-				"outputs": [
-					{
-						"internalType": "uint256[]",
-						"name": "",
-						"type": "uint256[]"
-					}
-				],
-				"stateMutability": "pure",
+				"inputs": [],
+				"name": "valueI",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -51,7 +59,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"for_checkingfiles.sol": "mapchecking"
+			"for_checkingfiles.sol": "Doit2"
 		},
 		"evmVersion": "paris",
 		"libraries": {},

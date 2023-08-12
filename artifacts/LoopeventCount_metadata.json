@@ -9,29 +9,16 @@
 				"inputs": [
 					{
 						"internalType": "uint256[]",
-						"name": "_arr",
+						"name": "array",
 						"type": "uint256[]"
 					}
 				],
-				"name": "r",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256[]",
-						"name": "_x",
-						"type": "uint256[]"
-					}
-				],
-				"name": "set",
+				"name": "oddnum",
 				"outputs": [
 					{
-						"internalType": "uint256[]",
+						"internalType": "uint256",
 						"name": "",
-						"type": "uint256[]"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "pure",
@@ -51,7 +38,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"for_checkingfiles.sol": "mapchecking"
+			"for_checkingfiles.sol": "LoopeventCount"
 		},
 		"evmVersion": "paris",
 		"libraries": {},

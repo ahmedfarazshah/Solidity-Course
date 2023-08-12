@@ -1,48 +1,5 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.17;
-
-
-
-contract quiz{
-    enum weekend{
-        monday,tuesday,wednesday,thursday
-    }
-    weekend public w2 = weekend(2);
-    weekend public w1;
-    function update (uint i)public {
-        w1= weekend(i);
-    }
-
-    function get() public {
-        if(w2 == weekend.wednesday){
-            w2 = weekend.thursday;
-        }
-        if (w1==weekend(1)){
-            delete w2;
-        }
-        // if(w1== weekend.sunday){
-            // return w1;
-            // w1 = weekend.monday;
-        
-    }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 contract mapchecking{
     mapping (string => mapping(address=> uint)) mas;
 
@@ -156,9 +113,172 @@ function check() public view returns (uint){
     // return people[0].
 }
 
+}
+
+
+            // Loops of the quiz are defined below
 
 
 
+contract summers2{
+    enum Month{
+        Jan,Feb,Mar,April,May,June,July, Aug,Sep,Oct,Nov,Dec
+    }
+
+    Month[] public summer;
+    Month i;
+
+    function set()public {
+        for(uint j= 1;i<= Month.July; j++){
+            if((i == Month(5))|| (i == Month(6))  || (i == Month(7))){
+                summer.push(Month(i));
+            }
+        i =Month(j);
+        }
+    }
+}
+
+// loop will run untill the 5 index numbers but will store negative numbers
+
+contract compilation{
+
+    int[5] public arr = [-4,4,6,-3,4];
+    int[] public positarr;
+
+    function set() public {
+
+        for (uint i = 0 ; i <arr.length; i++){
+            if(arr[i] <0){
+                positarr.push(arr[i]);
+            }
+        }
+    }
+
+    // for a empty array
+
+    uint[] public arrays;
+    function pushing()public {
+        for(uint i=0; i<5; i++){
+                arrays.push(i);
+        }
+    }
+
+    int public x;
+    function using_not()public {
+            for (uint i =2 ; i!= 0 ; i--){
+                for (uint y =2 ; y!= 0 ; y--){
+                    x--;
+                }
+            }
+    }
+}
+
+contract Total{
+
+    uint public total = 0;
+    function rep()public {
+        for(uint i=1;i<=3;i++){
+            for(uint y=1; y<=1;y++){
+                total +=y;
+            }
+        }
+    }
 
 }
 
+contract LoopeventCount{
+
+    function oddnum(uint[] memory array) public pure returns(uint){
+        uint count= 0;
+        for(uint i =0 ; i<=array.length; i++){
+            if(array[i] %2 != 0){
+                count++;
+            }
+        } 
+        return count;
+    }
+
+}
+
+
+
+
+    
+    /*
+    Initial value of x is not provided in the code snippet, so let's assume x starts with the value 0.
+Outer loop: i starts at 2, and the loop iterates.
+
+Inner loop: y starts at 2, and the loop iterates.
+x becomes -1 (0 - 1).
+Inner loop: y decrements to 1, and the loop iterates.
+x becomes -2 (-1 - 1).
+Inner loop: y decrements to 0, the loop stops.
+Outer loop: i decrements to 1, and the loop iterates.
+
+Inner loop: y starts at 2, and the loop iterates.
+x becomes -3 (-2 - 1).
+Inner loop: y decrements to 1, and the loop iterates.
+x becomes -4 (-3 - 1).
+Inner loop: y decrements to 0, the loop stops.
+Outer loop: i decrements to 0, the loop stops.
+
+After both loops have executed, the value of x has become -4 due to the repeated decrements within the nested loops.
+
+In summary, the code utilizes nested loops to repeatedly decrement the value of the x variable. Since the loops are executed multiple times and each iteration decreases x, the final value of x becomes -4.
+*/
+
+
+
+//while loops 
+
+contract mixer{
+
+    uint public sum;
+    uint public k;
+
+    function valueK()public {
+        while(sum <= 15){
+            sum += k;
+            k++;
+        }
+
+    }
+
+}
+// do while 
+
+contract doIt{
+
+    uint public sum= 1;
+    uint public k= 1;
+
+    function dowhile() public {
+        do{
+            sum+=k;
+            k++;
+        }while (sum<=10);
+    }
+
+}
+contract Doit2{
+
+    uint public i= 1;
+    uint iteration;
+    uint cond=0;
+
+    function valueI()public {
+        do{
+            i++;
+            iteration++;
+        }while (i<cond);
+
+    }
+
+
+    uint public life;
+    function span()public {
+        for(uint y=0; y<1;y++){
+            life += y;
+        }
+    }
+}
