@@ -11,9 +11,8 @@ contract Factorial{
         }
     //******** Insert For Loop Here***********
         uint fac = 1;
-        uint i;
-        for (i= 1; i <=n; i++){
-            fac = i*(fac);
+        for (uint y= 1; y <=n; y++){
+            fac = y*(fac);
         }        
         return fac;
     }

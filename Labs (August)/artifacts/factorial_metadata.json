@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.21+commit.d9974bed"
+		"version": "0.8.18+commit.87f61d96"
 	},
 	"language": "Solidity",
 	"output": {
@@ -40,7 +40,7 @@
 		"compilationTarget": {
 			"Labs (August)/forLast_exe.sol": "factorial"
 		},
-		"evmVersion": "shanghai",
+		"evmVersion": "paris",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -53,11 +53,11 @@
 	},
 	"sources": {
 		"Labs (August)/forLast_exe.sol": {
-			"keccak256": "0x5f604695fd3833dc83508a5e6fb2075aa72c833daef76086e249e1ec4a3738ed",
+			"keccak256": "0x2614fab196a777958bdb841907f330a81f935c324cf4e4e59e8ad6fc74aa7df4",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://dce5027959b338b9af4963dfe5ea9930baa2dc9d55e573f2eaeb56c0174e5fcf",
-				"dweb:/ipfs/Qmb4g2t2CTGPgDjoXAX4M63WrwnHaWwhiHgkpM2HtWuSn4"
+				"bzz-raw://a72436db97cf35f501b234268a8739a834232de8bc40b7bf746e79a6a2016152",
+				"dweb:/ipfs/QmdSHTWrQyBpa9gK9JKWz36XSJUm1SYgvK9r9qLzahWJ31"
 			]
 		}
 	},

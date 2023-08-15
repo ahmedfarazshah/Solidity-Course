@@ -64,7 +64,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"lab31_7/file4_arrays.sol": "DArray_"
+			"lab(Functions & Arrays)/file4_arrays.sol": "DArray_"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -78,7 +78,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"lab31_7/file4_arrays.sol": {
+		"lab(Functions & Arrays)/file4_arrays.sol": {
 			"keccak256": "0xd29a2f4913ef0db8b6c6a1f1de0e1fee3f34ffdb919b5695e553dbde80267b7d",
 			"license": "MIT",
 			"urls": [

@@ -12,7 +12,7 @@ contract mixer{
 
     CAR car;
     function initcar()public  view{
-        _car  memory = car;
+        // _car  memory = car;
         
 
 

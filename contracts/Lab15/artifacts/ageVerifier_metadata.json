@@ -8,9 +8,9 @@
 			{
 				"inputs": [
 					{
-						"internalType": "uint8",
+						"internalType": "uint256",
 						"name": "age",
-						"type": "uint8"
+						"type": "uint256"
 					}
 				],
 				"name": "checkNumber",
@@ -38,7 +38,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Lab15/ternary.sol": "ageVerifier"
+			"contracts/Lab15/file_01.sol": "ageVerifier"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -52,12 +52,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Lab15/ternary.sol": {
-			"keccak256": "0x359b87cff4f9c19b671010de191f6a6336a727d18717d790daf056084271cbb2",
+		"contracts/Lab15/file_01.sol": {
+			"keccak256": "0x7b8e946fa1357b3929f8fd87d99e0a09f4549bad15b968011d00f8da0fe2ab83",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://593bd9a8c8a07276493fd855d8676329bdaa09b3f32283bef9d3022097e95095",
-				"dweb:/ipfs/QmQMgqiQqpEx5PfPw1xFRWn5EASi2Q15b6p49TNdwMPiUa"
+				"bzz-raw://849fa33c0011e1bb9e73d1b5cfce18806c7493ed75d3a877fee4f7c6044e0b96",
+				"dweb:/ipfs/QmQpT4zp9fcBYovJTkadHT7dLpMi88Vf3cvz4P1TyUAGwF"
 			]
 		}
 	},
