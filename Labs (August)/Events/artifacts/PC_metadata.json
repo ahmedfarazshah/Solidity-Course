@@ -27,7 +27,7 @@
 							},
 							{
 								"internalType": "string",
-								"name": "martial_status",
+								"name": "Marital_status",
 								"type": "string"
 							}
 						],
@@ -55,7 +55,7 @@
 							},
 							{
 								"internalType": "string",
-								"name": "martial_status",
+								"name": "Marital_status",
 								"type": "string"
 							}
 						],
@@ -101,7 +101,7 @@
 					},
 					{
 						"internalType": "string",
-						"name": "martial_status",
+						"name": "Marital_status",
 						"type": "string"
 					}
 				],
@@ -127,7 +127,7 @@
 					},
 					{
 						"internalType": "string",
-						"name": "_martial",
+						"name": "_marital",
 						"type": "string"
 					}
 				],
@@ -165,11 +165,11 @@
 	},
 	"sources": {
 		"Labs (August)/Events/file02.sol": {
-			"keccak256": "0x3ac45ec9319babdce298e8a0dad328c1148853c7d63d13a40ebb6acc51f7d98b",
+			"keccak256": "0xe29f20f3ad562411ef49da0b9994fcff3a767dc3db3c192a504e77faf34d063b",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://50a68eee243f64c335e919b84e6bcf8a158110408ca005b8c7a2bb7f5fc56894",
-				"dweb:/ipfs/QmW2K1AfZDnpUn1BzCrxtY4QWp6SkDp22WriU9TtCFX1kx"
+				"bzz-raw://8e83edde340af8e3371e24cddfc95056524a171936a8899dd5bc8a254048112a",
+				"dweb:/ipfs/QmZ5NUktixDYSf58VR1CYT5QWixeCkegYdkz8JHYM5npe5"
 			]
 		}
 	},
