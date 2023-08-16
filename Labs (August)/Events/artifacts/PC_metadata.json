@@ -127,7 +127,7 @@
 					},
 					{
 						"internalType": "string",
-						"name": "_marital",
+						"name": "status",
 						"type": "string"
 					}
 				],
@@ -144,7 +144,11 @@
 		},
 		"userdoc": {
 			"kind": "user",
-			"methods": {},
+			"methods": {
+				"p1()": {
+					"notice": "will show the old value untill the new value is assigned"
+				}
+			},
 			"version": 1
 		}
 	},
@@ -165,11 +169,11 @@
 	},
 	"sources": {
 		"Labs (August)/Events/file02.sol": {
-			"keccak256": "0xe29f20f3ad562411ef49da0b9994fcff3a767dc3db3c192a504e77faf34d063b",
+			"keccak256": "0x48e831dc73164e75066274e93de075a4602f4d25f7d150bc2b23637193454e1c",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://8e83edde340af8e3371e24cddfc95056524a171936a8899dd5bc8a254048112a",
-				"dweb:/ipfs/QmZ5NUktixDYSf58VR1CYT5QWixeCkegYdkz8JHYM5npe5"
+				"bzz-raw://3213fe52c2142efe0c471210cbbab556df31fab4051b86c86b19caed609e3ca3",
+				"dweb:/ipfs/QmZ1tHR7XUsDfP6ceT7TAdN2fAAwFCAWfv8s8dPdSyKV66"
 			]
 		}
 	},

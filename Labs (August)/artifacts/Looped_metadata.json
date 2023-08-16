@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.21+commit.d9974bed"
+		"version": "0.8.18+commit.87f61d96"
 	},
 	"language": "Solidity",
 	"output": {
@@ -66,7 +66,7 @@
 		"compilationTarget": {
 			"Labs (August)/do_while.sol": "Looped"
 		},
-		"evmVersion": "shanghai",
+		"evmVersion": "paris",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -79,11 +79,11 @@
 	},
 	"sources": {
 		"Labs (August)/do_while.sol": {
-			"keccak256": "0xa8dcda99333b20baacdf0519c8c717c3924cd464252959cba7b0fcc4e3cafb22",
+			"keccak256": "0x3819416fe86c36d585cbed15dff55da305b0e6db9c2f36954bd17ce2165337e2",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://b7b99be7ac7bd2314688fccbe182d27c837efcbf178cd979eb4ff4eb2273abb2",
-				"dweb:/ipfs/QmZkndQhtqeRiM7NShngmAZVRNMfWFsr2y5k7vs4cQQJXk"
+				"bzz-raw://193a4bafca9fa72b1f4f7544b1c568ac060c5128f590d3dd7546c2b0f7eacaf2",
+				"dweb:/ipfs/QmQw74qsRDaTSZBHwGdAQXsBDjS2dZyxXugSZgqduyq9AS"
 			]
 		}
 	},

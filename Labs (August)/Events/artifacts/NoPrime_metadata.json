@@ -6,32 +6,45 @@
 	"output": {
 		"abi": [
 			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "PrimeChecker",
+				"type": "event"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "_number",
 						"type": "uint256"
 					}
 				],
-				"name": "array",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
+				"name": "checker",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "get",
+				"name": "nummain",
 				"outputs": [
 					{
-						"internalType": "uint256[]",
+						"internalType": "uint256",
 						"name": "",
-						"type": "uint256[]"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -41,11 +54,11 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "number",
+						"name": "_inputNum",
 						"type": "uint256"
 					}
 				],
-				"name": "oddNums",
+				"name": "setter",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -64,7 +77,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Labs (August)/do_while.sol": "looped_doWhile"
+			"Labs (August)/Events/file02.sol": "NoPrime"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -78,12 +91,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Labs (August)/do_while.sol": {
-			"keccak256": "0x3819416fe86c36d585cbed15dff55da305b0e6db9c2f36954bd17ce2165337e2",
+		"Labs (August)/Events/file02.sol": {
+			"keccak256": "0x48e831dc73164e75066274e93de075a4602f4d25f7d150bc2b23637193454e1c",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://193a4bafca9fa72b1f4f7544b1c568ac060c5128f590d3dd7546c2b0f7eacaf2",
-				"dweb:/ipfs/QmQw74qsRDaTSZBHwGdAQXsBDjS2dZyxXugSZgqduyq9AS"
+				"bzz-raw://3213fe52c2142efe0c471210cbbab556df31fab4051b86c86b19caed609e3ca3",
+				"dweb:/ipfs/QmZ1tHR7XUsDfP6ceT7TAdN2fAAwFCAWfv8s8dPdSyKV66"
 			]
 		}
 	},

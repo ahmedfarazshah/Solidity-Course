@@ -21,14 +21,15 @@ contract Looped{
     function ODDNum(uint max) public{
         uint i = 1;
         while(i <= max){
-        if (i % 2 != 0)
-        arr.push(i);
-        i++;
-        }
+            if (i % 2 != 0){
+                arr.push(i);
+            }
+            i++;
+            }
         }
         function get() public view returns(uint[] memory){
         return arr;
-        }
+    }
 }
 
 contract looped_doWhile{

@@ -88,7 +88,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"lab31_7/file01.sol": "personDetails"
+			"lab(Functions & Arrays)/file01.sol": "personDetails"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -102,7 +102,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"lab31_7/file01.sol": {
+		"lab(Functions & Arrays)/file01.sol": {
 			"keccak256": "0xda64e64a642837cae56f56afcca01c07d3ec85b61d14a65ab355bf9f2af1d8d2",
 			"license": "MIT",
 			"urls": [

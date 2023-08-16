@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.21+commit.d9974bed"
+		"version": "0.8.18+commit.87f61d96"
 	},
 	"language": "Solidity",
 	"output": {
@@ -9,16 +9,16 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "_num",
+						"name": "cond",
 						"type": "uint256"
 					}
 				],
-				"name": "PrimeChecker",
+				"name": "iterate",
 				"outputs": [
 					{
-						"internalType": "bool",
-						"name": "is_prime",
-						"type": "bool"
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "pure",
@@ -38,9 +38,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Labs (August)/Loops.sol": "Loop"
+			"Labs (August)/do_while.sol": "Loop"
 		},
-		"evmVersion": "shanghai",
+		"evmVersion": "paris",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -52,12 +52,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Labs (August)/Loops.sol": {
-			"keccak256": "0x54e70c11fd9b1aa682df6296ee079616f72dd1f92534792a6b53a26c913fc9e3",
+		"Labs (August)/do_while.sol": {
+			"keccak256": "0x3819416fe86c36d585cbed15dff55da305b0e6db9c2f36954bd17ce2165337e2",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://503b40b35edd38c47821389c36efb4e659c84e34267a93f8be98e7660456dc66",
-				"dweb:/ipfs/QmYm7xA7hRE7ARiVUX9GjLvj13PinfHWs3R36yZtwRRuHj"
+				"bzz-raw://193a4bafca9fa72b1f4f7544b1c568ac060c5128f590d3dd7546c2b0f7eacaf2",
+				"dweb:/ipfs/QmQw74qsRDaTSZBHwGdAQXsBDjS2dZyxXugSZgqduyq9AS"
 			]
 		}
 	},

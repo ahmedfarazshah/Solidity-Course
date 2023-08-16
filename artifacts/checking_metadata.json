@@ -6,153 +6,9 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"name": "arr1",
-				"outputs": [
-					{
-						"internalType": "bool",
-						"name": "",
-						"type": "bool"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256[]",
-						"name": "_arr",
-						"type": "uint256[]"
-					}
-				],
-				"name": "arrayOutput",
-				"outputs": [],
+				"inputs": [],
 				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "d",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "name",
-						"type": "string"
-					},
-					{
-						"internalType": "uint256",
-						"name": "age",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"name": "datas",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "name",
-						"type": "string"
-					},
-					{
-						"internalType": "uint256",
-						"name": "age",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "func5",
-				"outputs": [
-					{
-						"internalType": "int256",
-						"name": "x",
-						"type": "int256"
-					},
-					{
-						"internalType": "bool",
-						"name": "y",
-						"type": "bool"
-					},
-					{
-						"internalType": "int256",
-						"name": "",
-						"type": "int256"
-					}
-				],
-				"stateMutability": "pure",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "get",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "length",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "push",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "bool",
-						"name": "A",
-						"type": "bool"
-					}
-				],
-				"name": "push",
-				"outputs": [
-					{
-						"internalType": "bool",
-						"name": "",
-						"type": "bool"
-					}
-				],
-				"stateMutability": "pure",
-				"type": "function"
+				"type": "constructor"
 			}
 		],
 		"devdoc": {
@@ -168,7 +24,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"for_checkingfiles.sol": "checking"
+			"constructor.sol": "checking"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -182,12 +38,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"for_checkingfiles.sol": {
-			"keccak256": "0x6ea26b48ce6a3113acfc8415e5c284a072207157fbe439d54a9cb9dbfe7033bf",
+		"constructor.sol": {
+			"keccak256": "0x1ac05ed1d1b7b91b2ca39b0af2c3cf50074f7cd6e3d5cc427c2b866b90f16ee9",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://dfde5039ab7ca5e19bdf4ab38e53702e87889a09cc477b326dd963c388a3beda",
-				"dweb:/ipfs/QmdGJvnASEiiGGbyTLRJYBB4eGx9SFBvTxHY4onzaw8C6v"
+				"bzz-raw://66c796cf7505ff8fc0279b6672cdddc319631ef0d8325fae20e31f451f1ea85f",
+				"dweb:/ipfs/QmRGgx5escDechbY1uJiMyv6z51kYc3jZ14pYq4kN99wkt"
 			]
 		}
 	},

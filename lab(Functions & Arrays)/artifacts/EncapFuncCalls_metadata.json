@@ -164,7 +164,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"lab31_7/Lab_31_7.sol": "EncapFuncCalls"
+			"lab(Functions & Arrays)/Lab_31_7.sol": "EncapFuncCalls"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -178,7 +178,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"lab31_7/Lab_31_7.sol": {
+		"lab(Functions & Arrays)/Lab_31_7.sol": {
 			"keccak256": "0xcd74e783a8445807e440aded4ec71e1e232f53b7a8769a826dbf78af61eb6eb1",
 			"license": "MIT",
 			"urls": [

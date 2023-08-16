@@ -38,7 +38,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"lab31_7/file02.sol": "circle"
+			"lab(Functions & Arrays)/file02.sol": "circle"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -52,7 +52,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"lab31_7/file02.sol": {
+		"lab(Functions & Arrays)/file02.sol": {
 			"keccak256": "0xa3fd1801289e459368e23dd3de3f1aa4f9deae818e051f247bdc4af95d73fe76",
 			"license": "MIT",
 			"urls": [
