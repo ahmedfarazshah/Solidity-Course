@@ -6,40 +6,33 @@
 	"output": {
 		"abi": [
 			{
-				"anonymous": false,
-				"inputs": [
-					{
-						"indexed": false,
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					},
-					{
-						"indexed": false,
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"name": "PrimeChecker",
-				"type": "event"
-			},
-			{
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "_number",
+						"name": "num",
 						"type": "uint256"
 					}
 				],
-				"name": "checker",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"name": "IsPrime",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "pure",
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "nummain",
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "arr",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -54,11 +47,11 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "_inputNum",
+						"name": "num",
 						"type": "uint256"
 					}
 				],
-				"name": "setter",
+				"name": "upush",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -77,7 +70,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Labs (August)/Events/file02.sol": "NoPrime"
+			"Labs (August)/Error_handling/custom_errors.sol": "Error_cus"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -91,12 +84,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Labs (August)/Events/file02.sol": {
-			"keccak256": "0x48e831dc73164e75066274e93de075a4602f4d25f7d150bc2b23637193454e1c",
+		"Labs (August)/Error_handling/custom_errors.sol": {
+			"keccak256": "0xac10ab12d0bf01231664807d179f404cb2c575deb282754a24a2a9b7ef681110",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://3213fe52c2142efe0c471210cbbab556df31fab4051b86c86b19caed609e3ca3",
-				"dweb:/ipfs/QmZ1tHR7XUsDfP6ceT7TAdN2fAAwFCAWfv8s8dPdSyKV66"
+				"bzz-raw://6178f0271b7213fc44feed75519b82e2d4c4579bdd7ded7eed369e93cc0b8684",
+				"dweb:/ipfs/QmVfJxGzGLe1gaFcTvZABbTQsmBA41K1cpiXiRrjVFojo3"
 			]
 		}
 	},

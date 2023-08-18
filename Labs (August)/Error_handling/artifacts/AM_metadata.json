@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint8",
+						"name": "_num1",
+						"type": "uint8"
+					},
+					{
+						"internalType": "uint8",
+						"name": "_num2",
+						"type": "uint8"
+					}
+				],
+				"name": "sum1",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Labs (August)/Error_handling/assert.sol": "AM"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Labs (August)/Error_handling/assert.sol": {
+			"keccak256": "0xc6912db2e8a32a8d3dba345a79c8b9e6e9bd135ad8dac50babfce831274deead",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a1aa89b5f59ac9e42264b9a9a69dc838dbebc6cd2dfbe450957392b6a775340e",
+				"dweb:/ipfs/QmcovqjkyQG47dGRanc41Dm2Thfy5vv2Sg5WuV7eiCAvvt"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,120 @@
+{
+	"compiler": {
+		"version": "0.8.21+commit.d9974bed"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "_department",
+				"outputs": [
+					{
+						"internalType": "enum admissionPortal.Dep",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "admission_status",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "studentId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "enum admissionPortal.Dep",
+						"name": "selectdep",
+						"type": "uint8"
+					}
+				],
+				"name": "chooseDep",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "studentid",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "query",
+						"type": "bool"
+					}
+				],
+				"name": "set_status",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Labs (August)/Error_handling/assert.sol": "admissionPortal"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Labs (August)/Error_handling/assert.sol": {
+			"keccak256": "0xe15bdf218dd28d93658de5247408d51fd706c3dbd1f35be6c5498f3c628b01fc",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a3ada88ac1ca1e66e89669034a7f8b99932cbae6ea76db3b912781515254abe4",
+				"dweb:/ipfs/QmcS9bLVyDmYii4t6QEStKZF3rxy2VRHSpKuZ5QpnJyemW"
+			]
+		}
+	},
+	"version": 1
+}

@@ -6,39 +6,41 @@
 	"output": {
 		"abi": [
 			{
-				"anonymous": false,
 				"inputs": [
 					{
-						"indexed": false,
-						"internalType": "string",
-						"name": "message",
-						"type": "string"
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
 					}
 				],
-				"name": "localvar",
-				"type": "event"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "int256",
-						"name": "number",
-						"type": "int256"
-					}
-				],
-				"name": "numgive",
+				"name": "array",
 				"outputs": [
 					{
 						"internalType": "int256",
 						"name": "",
 						"type": "int256"
-					},
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
 					}
 				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "pop",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "value",
+						"type": "int256"
+					}
+				],
+				"name": "push",
+				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			}
@@ -56,7 +58,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Labs (August)/Events/file03_11.sol": "eveToNum"
+			"Labs (August)/Error_handling/assert.sol": "StopEP"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -70,12 +72,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Labs (August)/Events/file03_11.sol": {
-			"keccak256": "0x585a46a90547bbe4e5b6c277df20e5626963ebf75f0086ada9d7225e1af5c1ec",
+		"Labs (August)/Error_handling/assert.sol": {
+			"keccak256": "0xe15bdf218dd28d93658de5247408d51fd706c3dbd1f35be6c5498f3c628b01fc",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://432f4ce861d1b6267ad9f734701738bf5839466727723b2cb2d42fcfc9c357a7",
-				"dweb:/ipfs/QmT8NJWrwY764K4vEE2EfnPGqf7Kaenkp8ocNPcgZkNgaJ"
+				"bzz-raw://a3ada88ac1ca1e66e89669034a7f8b99932cbae6ea76db3b912781515254abe4",
+				"dweb:/ipfs/QmcS9bLVyDmYii4t6QEStKZF3rxy2VRHSpKuZ5QpnJyemW"
 			]
 		}
 	},

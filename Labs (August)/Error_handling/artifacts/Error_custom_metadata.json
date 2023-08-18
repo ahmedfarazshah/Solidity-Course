@@ -6,40 +6,49 @@
 	"output": {
 		"abi": [
 			{
-				"anonymous": false,
 				"inputs": [
 					{
-						"indexed": false,
 						"internalType": "string",
-						"name": "",
+						"name": "message",
 						"type": "string"
 					},
 					{
-						"indexed": false,
 						"internalType": "uint256",
-						"name": "",
+						"name": "number",
 						"type": "uint256"
 					}
 				],
-				"name": "PrimeChecker",
-				"type": "event"
+				"name": "custom",
+				"type": "error"
 			},
 			{
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "_number",
+						"name": "num",
 						"type": "uint256"
 					}
 				],
-				"name": "checker",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"name": "IsPrime",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "pure",
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "nummain",
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "arr",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -54,11 +63,11 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "_inputNum",
+						"name": "num",
 						"type": "uint256"
 					}
 				],
-				"name": "setter",
+				"name": "upush",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -77,7 +86,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Labs (August)/Events/file02.sol": "NoPrime"
+			"Labs (August)/Error_handling/custom_errors.sol": "Error_custom"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -91,12 +100,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Labs (August)/Events/file02.sol": {
-			"keccak256": "0x48e831dc73164e75066274e93de075a4602f4d25f7d150bc2b23637193454e1c",
+		"Labs (August)/Error_handling/custom_errors.sol": {
+			"keccak256": "0xe42322ac5ddfbe02d4f1ec4447c77cf6cf354e47b27dccc9e7172092106f5add",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://3213fe52c2142efe0c471210cbbab556df31fab4051b86c86b19caed609e3ca3",
-				"dweb:/ipfs/QmZ1tHR7XUsDfP6ceT7TAdN2fAAwFCAWfv8s8dPdSyKV66"
+				"bzz-raw://7d800baa4ec80a5bfe3c5b7525ff77b993f975cd4f766f21a34af5523ffd4d04",
+				"dweb:/ipfs/QmeBne8F9fCsgiEygNmvE4ZanTaYAM7Czekn9fNaGWXfax"
 			]
 		}
 	},

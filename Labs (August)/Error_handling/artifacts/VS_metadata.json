@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_candidateId",
+						"type": "uint256"
+					}
+				],
+				"name": "vote",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "votinglist",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Labs (August)/Error_handling/file_revert.sol": "VS"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Labs (August)/Error_handling/file_revert.sol": {
+			"keccak256": "0xfe482653edf5929078632251f1e968248cad5d9cebccf665a9af684ac8239078",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6a739e7d63764588864c0c7fbce9e7b98e1c38b24452661d11af48a9af366267",
+				"dweb:/ipfs/QmUpy1WSaqh3k829uJaKR6TbmaLE26vStKSGZ5qnku7s7R"
+			]
+		}
+	},
+	"version": 1
+}

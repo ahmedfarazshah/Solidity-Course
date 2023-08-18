@@ -6,40 +6,45 @@
 	"output": {
 		"abi": [
 			{
-				"anonymous": false,
 				"inputs": [
 					{
-						"indexed": false,
-						"internalType": "string",
-						"name": "_message",
-						"type": "string"
-					}
-				],
-				"name": "zeromessage",
-				"type": "event"
-			},
-			{
-				"inputs": [],
-				"name": "addr",
-				"outputs": [
+						"internalType": "uint216",
+						"name": "amount",
+						"type": "uint216"
+					},
 					{
 						"internalType": "address",
-						"name": "",
+						"name": "recipient",
 						"type": "address"
 					}
 				],
-				"stateMutability": "view",
+				"name": "Transfer",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "_addr",
+						"name": "",
 						"type": "address"
 					}
 				],
-				"name": "insertaddr",
+				"name": "balances",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "givebtc",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -58,7 +63,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Labs (August)/Events/file03_11.sol": "zero"
+			"Labs (August)/Error_handling/file01.sol": "InputValidator"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -72,12 +77,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Labs (August)/Events/file03_11.sol": {
-			"keccak256": "0x585a46a90547bbe4e5b6c277df20e5626963ebf75f0086ada9d7225e1af5c1ec",
+		"Labs (August)/Error_handling/file01.sol": {
+			"keccak256": "0x0ae2f77a105cdd9a44320f449a60459e33c8226ce07542aa3c29911bcf4fb462",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://432f4ce861d1b6267ad9f734701738bf5839466727723b2cb2d42fcfc9c357a7",
-				"dweb:/ipfs/QmT8NJWrwY764K4vEE2EfnPGqf7Kaenkp8ocNPcgZkNgaJ"
+				"bzz-raw://62b46564deea228db7a80681332fd58a34d93f655fe2f47d1e62ac431bf2d601",
+				"dweb:/ipfs/Qma4pCrCqjM1KrLR6H7XQqNFEAawH63fLVLUmrHgtoqd4K"
 			]
 		}
 	},
