@@ -14,41 +14,23 @@
 					},
 					{
 						"internalType": "uint256",
-						"name": "number",
+						"name": "totalcash",
 						"type": "uint256"
 					}
 				],
-				"name": "custom",
+				"name": "insufficientFund",
 				"type": "error"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "num",
-						"type": "uint256"
-					}
-				],
-				"name": "IsPrime",
-				"outputs": [
-					{
-						"internalType": "bool",
-						"name": "",
-						"type": "bool"
-					}
-				],
-				"stateMutability": "pure",
+				"inputs": [],
+				"name": "refill",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"name": "arr",
+				"inputs": [],
+				"name": "totalCash",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -63,11 +45,11 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "num",
+						"name": "amount",
 						"type": "uint256"
 					}
 				],
-				"name": "upush",
+				"name": "withdraw",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -86,7 +68,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Labs (August)/Error_handling/custom_errors.sol": "Error_custom"
+			"Labs (August)/Error_handling/custom_errors.sol": "ATM"
 		},
 		"evmVersion": "paris",
 		"libraries": {},

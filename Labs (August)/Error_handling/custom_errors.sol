@@ -75,3 +75,42 @@ contract Error_custom{
     }
 }
 
+
+contract lisence{
+
+    error driverage(string message, uint age);
+
+    mapping (uint => uint) public idstorage;
+    
+    function agecheck(uint _age)public returns (uint id){
+        if(_age<18){
+            revert driverage('Too Young', _age);
+        }
+        uint ide;
+        ide= _age*1234;
+        idstorage[ide]= _age;
+        return ide;
+        
+
+    }
+}
+
+contract ATM{   //automated teller machine
+
+    uint public totalCash = 100000;
+
+    error insufficientFund(string message, uint totalcash);
+
+    function withdraw(uint amount) public {
+        if(amount<totalCash){
+            totalCash -=amount;
+        }else if(amount>totalCash){
+            revert insufficientFund('the amount you entered is not available.', totalCash); 
+        }
+    }
+
+    function refill()public {
+        totalCash +=100000;
+    }
+
+}

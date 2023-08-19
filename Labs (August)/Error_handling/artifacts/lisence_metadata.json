@@ -14,30 +14,30 @@
 					},
 					{
 						"internalType": "uint256",
-						"name": "number",
+						"name": "age",
 						"type": "uint256"
 					}
 				],
-				"name": "custom",
+				"name": "driverage",
 				"type": "error"
 			},
 			{
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "num",
+						"name": "_age",
 						"type": "uint256"
 					}
 				],
-				"name": "IsPrime",
+				"name": "agecheck",
 				"outputs": [
 					{
-						"internalType": "bool",
-						"name": "",
-						"type": "bool"
+						"internalType": "uint256",
+						"name": "id",
+						"type": "uint256"
 					}
 				],
-				"stateMutability": "pure",
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
@@ -48,7 +48,7 @@
 						"type": "uint256"
 					}
 				],
-				"name": "arr",
+				"name": "idstorage",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -57,19 +57,6 @@
 					}
 				],
 				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "num",
-						"type": "uint256"
-					}
-				],
-				"name": "upush",
-				"outputs": [],
-				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -86,7 +73,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Labs (August)/Error_handling/custom_errors.sol": "Error_custom"
+			"Labs (August)/Error_handling/custom_errors.sol": "lisence"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
