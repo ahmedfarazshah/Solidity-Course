@@ -6,23 +6,9 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"name": "owners",
-				"outputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
+				"inputs": [],
+				"name": "Invalid",
+				"type": "error"
 			},
 			{
 				"inputs": [
@@ -37,7 +23,7 @@
 						"type": "address"
 					}
 				],
-				"name": "transferOwner1",
+				"name": "transferOwner4",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -56,7 +42,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Labs (August)/Error_handling/file01.sol": "OwnerShipTransfer"
+			"Labs (August)/Error_handling/custom_errors.sol": "OwnerShipTransfer"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -70,12 +56,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Labs (August)/Error_handling/file01.sol": {
-			"keccak256": "0x0ae2f77a105cdd9a44320f449a60459e33c8226ce07542aa3c29911bcf4fb462",
+		"Labs (August)/Error_handling/custom_errors.sol": {
+			"keccak256": "0x8b8e9b9263fdd9a206ffe57c4735e24094c7284694d34deca0ad1b2a7af84aa1",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://62b46564deea228db7a80681332fd58a34d93f655fe2f47d1e62ac431bf2d601",
-				"dweb:/ipfs/Qma4pCrCqjM1KrLR6H7XQqNFEAawH63fLVLUmrHgtoqd4K"
+				"bzz-raw://f27b68c1240d961b30f05dcc5b838e98ee79cff128ef3330496cfb15e64fd043",
+				"dweb:/ipfs/QmcsaT81891nSrjVEFDPQc6tNqmsfiS4EvwUQGm5C5hxQu"
 			]
 		}
 	},
