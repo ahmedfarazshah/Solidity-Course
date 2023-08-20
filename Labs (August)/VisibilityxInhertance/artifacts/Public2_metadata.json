@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getpublic",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "publicmsg",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Labs (August)/VisibilityxInhertance/file.sol": "Public2"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Labs (August)/VisibilityxInhertance/file.sol": {
+			"keccak256": "0x66540a717cf193fe89ab2bb47845a96fff5e9e0cecf752fa3d9c7fcaabf83e02",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://280f13122b745ac7080040287e8ad0588f0e9209f09988bb2e45f81bf00e5bee",
+				"dweb:/ipfs/QmUAXoV9E14bqKazSxhEEUaMpbQwAakEfj7V8TfEL6Vd7v"
+			]
+		}
+	},
+	"version": 1
+}

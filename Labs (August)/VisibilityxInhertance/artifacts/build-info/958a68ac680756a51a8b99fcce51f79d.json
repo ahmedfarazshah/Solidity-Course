@@ -1,0 +1,68 @@
+{
+	"id": "958a68ac680756a51a8b99fcce51f79d",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.8.18",
+	"solcLongVersion": "0.8.18+commit.87f61d96",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"Labs (August)/VisibilityxInhertance/file_inheritance.sol": {
+				"content": "// SPDX-License-Identifier: MIT\r\npragma solidity ^0.8.17;\r\n\r\n\r\n"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			}
+		}
+	},
+	"output": {
+		"sources": {
+			"Labs (August)/VisibilityxInhertance/file_inheritance.sol": {
+				"ast": {
+					"absolutePath": "Labs (August)/VisibilityxInhertance/file_inheritance.sol",
+					"exportedSymbols": {},
+					"id": 2,
+					"license": "MIT",
+					"nodeType": "SourceUnit",
+					"nodes": [
+						{
+							"id": 1,
+							"literals": [
+								"solidity",
+								"^",
+								"0.8",
+								".17"
+							],
+							"nodeType": "PragmaDirective",
+							"src": "33:24:0"
+						}
+					],
+					"src": "33:30:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}

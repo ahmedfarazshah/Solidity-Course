@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "publicdata",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Labs (August)/VisibilityxInhertance/file.sol": "child"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Labs (August)/VisibilityxInhertance/file.sol": {
+			"keccak256": "0x3ca25203b88c62d5b400c6a9f058e1e633779495afbb5c34fffe95d15d8e4b91",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://751750a3444f4f18a34f305ad713d69c4bbc1ba84e3054ff5536ea6c4f55d6f8",
+				"dweb:/ipfs/QmTrXMSGNnC8id5j4EEZ54PPWmTZ5RxPTeNvAxr44wm1Mc"
+			]
+		}
+	},
+	"version": 1
+}
