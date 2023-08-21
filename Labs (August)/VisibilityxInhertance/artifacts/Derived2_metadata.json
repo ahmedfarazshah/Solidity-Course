@@ -8,12 +8,30 @@
 			{
 				"inputs": [
 					{
+						"internalType": "uint256",
+						"name": "_temp",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "Print",
+				"outputs": [
+					{
 						"internalType": "string",
 						"name": "",
 						"type": "string"
 					}
 				],
-				"name": "NameToBalance",
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "data",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -25,14 +43,8 @@
 				"type": "function"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "string",
-						"name": "name",
-						"type": "string"
-					}
-				],
-				"name": "get",
+				"inputs": [],
+				"name": "getData",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -41,37 +53,6 @@
 					}
 				],
 				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "string",
-						"name": "name",
-						"type": "string"
-					}
-				],
-				"name": "reset",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "string",
-						"name": "name",
-						"type": "string"
-					},
-					{
-						"internalType": "uint256",
-						"name": "bal",
-						"type": "uint256"
-					}
-				],
-				"name": "set",
-				"outputs": [],
-				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -88,7 +69,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Labs (August)/mapping/file1.sol": "Mapper"
+			"Labs (August)/VisibilityxInhertance/constructor.sol": "Derived2"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -102,12 +83,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Labs (August)/mapping/file1.sol": {
-			"keccak256": "0xaa118af16ff3875f7e20dbe725d0e2bf8beb1aa4bf27f51451d73b2cfc7652ee",
+		"Labs (August)/VisibilityxInhertance/constructor.sol": {
+			"keccak256": "0xf643f8781c90a389e0c47538883e4590a90a9dffada1931b17ffbe8311c778e3",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://2aed6e1a39d0c8421de2a6115ffafbbe461ec82105ddd4b517cebac2de0fc91b",
-				"dweb:/ipfs/QmU4CLdBoZV8s88oq7tDnMqqvw58o1fLBHymRqiPDUbYeD"
+				"bzz-raw://bc71a2153496cdc2fc0b1ed5c7a1b7c145556a672bc5bf46d31047ef29ca18ec",
+				"dweb:/ipfs/QmbQzSVeESZeqDm1hg5Gyp7W5fdpANRU5P64MA8DLLk3Do"
 			]
 		}
 	},

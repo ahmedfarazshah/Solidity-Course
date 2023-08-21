@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.21+commit.d9974bed"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getResult",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Labs (August)/VisibilityxInhertance/constructor.sol": "Caller"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Labs (August)/VisibilityxInhertance/constructor.sol": {
+			"keccak256": "0xf643f8781c90a389e0c47538883e4590a90a9dffada1931b17ffbe8311c778e3",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://bc71a2153496cdc2fc0b1ed5c7a1b7c145556a672bc5bf46d31047ef29ca18ec",
+				"dweb:/ipfs/QmbQzSVeESZeqDm1hg5Gyp7W5fdpANRU5P64MA8DLLk3Do"
+			]
+		}
+	},
+	"version": 1
+}

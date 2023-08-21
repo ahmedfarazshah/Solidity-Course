@@ -8,70 +8,63 @@
 			{
 				"inputs": [
 					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"name": "NameToBalance",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
+						"internalType": "address",
+						"name": "_addr",
+						"type": "address"
+					},
 					{
 						"internalType": "string",
-						"name": "name",
-						"type": "string"
-					}
-				],
-				"name": "get",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "string",
-						"name": "name",
-						"type": "string"
-					}
-				],
-				"name": "reset",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "string",
-						"name": "name",
+						"name": "_name",
 						"type": "string"
 					},
 					{
 						"internalType": "uint256",
-						"name": "bal",
+						"name": "_pin",
 						"type": "uint256"
 					}
 				],
-				"name": "set",
+				"name": "Print",
 				"outputs": [],
 				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "addr",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "name",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "pin",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -88,7 +81,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Labs (August)/mapping/file1.sol": "Mapper"
+			"Labs (August)/VisibilityxInhertance/file_inheritance.sol": "Admin"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -102,12 +95,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Labs (August)/mapping/file1.sol": {
-			"keccak256": "0xaa118af16ff3875f7e20dbe725d0e2bf8beb1aa4bf27f51451d73b2cfc7652ee",
+		"Labs (August)/VisibilityxInhertance/file_inheritance.sol": {
+			"keccak256": "0xa40d3643fec13879a7367393e41295ed677cd1734bb0d20280afa1f62b281b49",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://2aed6e1a39d0c8421de2a6115ffafbbe461ec82105ddd4b517cebac2de0fc91b",
-				"dweb:/ipfs/QmU4CLdBoZV8s88oq7tDnMqqvw58o1fLBHymRqiPDUbYeD"
+				"bzz-raw://d69280e209deb6465818520efe063cc573017e0bac89b960c76133257b99529a",
+				"dweb:/ipfs/QmctuZoAJ6jHsLkuwnMAWrD8Q5VwMCf1NWn4t9HXEB4eEJ"
 			]
 		}
 	},

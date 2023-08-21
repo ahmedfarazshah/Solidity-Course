@@ -143,11 +143,11 @@
 	},
 	"sources": {
 		"Labs (August)/mapping/file1.sol": {
-			"keccak256": "0x2e432aeb51f962406e97c8891dddc6e849805ee65e13925d10b6a1b2dcda3693",
+			"keccak256": "0xaa118af16ff3875f7e20dbe725d0e2bf8beb1aa4bf27f51451d73b2cfc7652ee",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://343e91fc1fa90543e4827572e3dc915f29681d8870c31720830ceb8738ba53ec",
-				"dweb:/ipfs/QmbDxNts4brFLEh6Hw8wJAekps8Ri7pefL6HgYsozrsiF2"
+				"bzz-raw://2aed6e1a39d0c8421de2a6115ffafbbe461ec82105ddd4b517cebac2de0fc91b",
+				"dweb:/ipfs/QmU4CLdBoZV8s88oq7tDnMqqvw58o1fLBHymRqiPDUbYeD"
 			]
 		}
 	},
