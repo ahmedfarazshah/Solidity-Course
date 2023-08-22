@@ -1,0 +1,73 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "message",
+						"type": "string"
+					}
+				],
+				"name": "Log",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "demo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "temp",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Labs (August)/VisibilityxInhertance/hybrid_inheritace.sol": "Supra"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Labs (August)/VisibilityxInhertance/hybrid_inheritace.sol": {
+			"keccak256": "0xe8a2500f253f561be0a056dfd81ecd0abe5309e723b381edb3fbb61b9d2427dd",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://548f98c762f2f40b68016f04fc4452800837375d8d109d6dfe62f3265292551e",
+				"dweb:/ipfs/QmPkHJrRpvseDLERUYH3CPLRtEc582hgNNppZgwCnNZbAa"
+			]
+		}
+	},
+	"version": 1
+}

@@ -113,20 +113,123 @@ contract DerivedC is Basex {
 
 contract Car {
     string public make;
+    string public model;
+
+    function vehicle(string memory _make, string memory _model) public {
+        make= _make;
+        model= _model;
+    }
+}
+
+contract electricCar is Car{
+    uint public batterycap;
+    function vehicle(string memory _make, string memory _model, uint _batteryvol) public {
+        make= _make;
+        model= _model;
+        batterycap = _batteryvol;
+    }
+}
+
+contract hybridCar is Car{
+    uint public gasTankCapacity;
+
+    function vehicle(string memory _make, string memory _model, uint _gascap)public {
+        make= _make;
+        model= _model;
+        gasTankCapacity = _gascap;
+        
+    }
 }
 
 
+// Multiple Inheritance
+
+contract BaseAa {
+    uint public x;
+
+    function setX(uint _x) public {
+    x = _x; }
+}
+
+contract BaseBb {
+
+ string public name;
+
+ function setName(string memory _name) public {
+ name = _name; }
+
+}
+
+contract Derivedx is BaseAa, BaseBb {
+
+ function getData() public view returns (uint, string memory) {
+ return (x, name); }
+
+}
 
 
+// task 2
 
 
+contract Worker{
+
+    uint public cost;
+
+    function submitwork( uint _cost)public {        
+        cost = _cost;
+    }
+}
 
 
+contract Client{
+    string public projectType;
+
+    function creatproject(string memory _nameProject) public {
+        projectType = _nameProject;
+    } 
+
+}
 
 
+contract Freelancer is Worker,Client{
+
+    function seeAll() public view returns (string memory, uint){
+        return (projectType, cost);
+    }
+
+}
 
 
+    // Hybrid Inheritance
+/*
+    contract BaseA { … }
+contract BaseB { … }
+contract DerivedA is BaseA, BaseB { … }
+contract DerivedB is BaseA, BaseB { … }
+contract HybridDerived is DerivedA, DerivedB { … }
+*/
 
+contract Manufacturer{
+    string public productName;
+    function manufac(string memory _product)public {
+        productName=_product;
+    }
+}
+
+contract Supplier{
+    //place order
+    string public orderedProduct;
+    function placed(string memory _product)public {
+        orderedProduct = _product;
+    }
+}
+
+contract Product is Manufacturer, Supplier{
+    //trackproduct
+    function seeAll()public view returns(string memory to_manufacture, string memory ordered){
+        return  (productName, orderedProduct);
+    }
+}
 
 
 

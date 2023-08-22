@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.21+commit.d9974bed"
+		"version": "0.8.18+commit.87f61d96"
 	},
 	"language": "Solidity",
 	"output": {
@@ -47,7 +47,7 @@
 		"compilationTarget": {
 			"Labs (August)/VisibilityxInhertance/file_inheritance.sol": "Basex"
 		},
-		"evmVersion": "shanghai",
+		"evmVersion": "paris",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -60,11 +60,11 @@
 	},
 	"sources": {
 		"Labs (August)/VisibilityxInhertance/file_inheritance.sol": {
-			"keccak256": "0xa40d3643fec13879a7367393e41295ed677cd1734bb0d20280afa1f62b281b49",
+			"keccak256": "0x0667f5a6c94e12c53d2315c91f3e21230e595e030ca20460d9af22d2012ae90b",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://d69280e209deb6465818520efe063cc573017e0bac89b960c76133257b99529a",
-				"dweb:/ipfs/QmctuZoAJ6jHsLkuwnMAWrD8Q5VwMCf1NWn4t9HXEB4eEJ"
+				"bzz-raw://32e634344c78a20f6d1b5e79268802bfb4e084c00d45d5f209afc34c2a587f3d",
+				"dweb:/ipfs/QmTX2m5GTa4gJPyc8TCKfr9VbqNir2yJx6KSsUvcv1eg1G"
 			]
 		}
 	},
