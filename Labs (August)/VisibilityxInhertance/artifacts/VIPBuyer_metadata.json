@@ -9,7 +9,7 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "_fee",
+						"name": "_discount",
 						"type": "uint256"
 					}
 				],
@@ -85,7 +85,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "fee",
+				"name": "discount",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -194,7 +194,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Labs (August)/VisibilityxInhertance/Marketplace_18.sol": "PremiumSeller"
+			"Labs (August)/VisibilityxInhertance/Marketplace_18.sol": "VIPBuyer"
 		},
 		"evmVersion": "paris",
 		"libraries": {},

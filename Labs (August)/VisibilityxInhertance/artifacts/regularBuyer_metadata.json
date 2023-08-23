@@ -6,17 +6,6 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_fee",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
 				"anonymous": false,
 				"inputs": [
 					{
@@ -81,19 +70,6 @@
 				"name": "buy",
 				"outputs": [],
 				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "fee",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -194,7 +170,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Labs (August)/VisibilityxInhertance/Marketplace_18.sol": "PremiumSeller"
+			"Labs (August)/VisibilityxInhertance/Marketplace_18.sol": "regularBuyer"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
