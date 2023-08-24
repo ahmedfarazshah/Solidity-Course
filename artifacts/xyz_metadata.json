@@ -6,35 +6,16 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "uint256[]",
-						"name": "_arr",
-						"type": "uint256[]"
-					}
-				],
-				"name": "r",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256[]",
-						"name": "_x",
-						"type": "uint256[]"
-					}
-				],
-				"name": "set",
+				"inputs": [],
+				"name": "foo",
 				"outputs": [
 					{
-						"internalType": "uint256[]",
+						"internalType": "uint256",
 						"name": "",
-						"type": "uint256[]"
+						"type": "uint256"
 					}
 				],
-				"stateMutability": "pure",
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -51,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"for_checkingfiles.sol": "mapchecking"
+			"for_checkingfiles.sol": "xyz"
 		},
 		"evmVersion": "paris",
 		"libraries": {},

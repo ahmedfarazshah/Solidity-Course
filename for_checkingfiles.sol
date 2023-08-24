@@ -282,3 +282,77 @@ contract Doit2{
         }
     }
 }
+
+
+contract AAA{
+    function multiply(uint a, uint b)public  pure  returns (uint){
+        uint c = a*b;
+        assert(c/a==b);
+        return c;
+    }
+
+    uint public bal= 10000;
+    uint private sum= 223;
+
+    function withdraw(uint value)public view {
+
+        require(value <= bal,'not enough balance');
+        revert('not allowed');
+        // bal -=value;
+    }
+
+    event file(uint newclient);
+    event exile();
+
+    // emit Event.exile(345);
+    function insert_name() public {
+        emit  exile();
+    }
+    function exe()internal view  returns(uint){
+        return sum;
+
+    }
+}
+
+contract z is AAA{
+
+    function gety() public view returns (uint){
+        return exe();
+    }
+
+}
+
+contract AB{
+    event file(string message);
+
+    constructor(){
+        emit file("to check the execution");
+    }
+}
+
+
+contract xyz{
+
+    uint internal numplate=789;
+    function foo()public view returns(uint){
+        return numplate;
+    }
+
+}
+contract xy is xyz{
+
+    uint private car;
+    function foox() public view returns (uint){
+        return (numplate);
+    }
+
+}
+
+contract xd is xyz,xy{
+    uint public  temp;
+
+    uint private  car;
+    constructor(){
+        temp= xy.foox();
+    }
+}

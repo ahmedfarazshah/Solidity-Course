@@ -6,31 +6,27 @@
 	"output": {
 		"abi": [
 			{
+				"anonymous": false,
+				"inputs": [],
+				"name": "exile",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
 				"inputs": [
 					{
-						"internalType": "string",
-						"name": "message",
-						"type": "string"
-					},
-					{
+						"indexed": false,
 						"internalType": "uint256",
-						"name": "totalcash",
+						"name": "newclient",
 						"type": "uint256"
 					}
 				],
-				"name": "insufficientFund",
-				"type": "error"
+				"name": "file",
+				"type": "event"
 			},
 			{
 				"inputs": [],
-				"name": "refill",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "totalCash",
+				"name": "bal",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -42,16 +38,47 @@
 				"type": "function"
 			},
 			{
+				"inputs": [],
+				"name": "insert_name",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "amount",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
+					}
+				],
+				"name": "multiply",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "value",
 						"type": "uint256"
 					}
 				],
 				"name": "withdraw",
 				"outputs": [],
-				"stateMutability": "nonpayable",
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -68,7 +95,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Labs (August)/Error_handling/custom_errors.sol": "ATM"
+			"for_checkingfiles.sol": "AAA"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -82,12 +109,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Labs (August)/Error_handling/custom_errors.sol": {
-			"keccak256": "0x8b8e9b9263fdd9a206ffe57c4735e24094c7284694d34deca0ad1b2a7af84aa1",
+		"for_checkingfiles.sol": {
+			"keccak256": "0x6801bc1c823b77ea1f69403719c49db9e99ef0034e43a3d28a005f909dda2687",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://f27b68c1240d961b30f05dcc5b838e98ee79cff128ef3330496cfb15e64fd043",
-				"dweb:/ipfs/QmcsaT81891nSrjVEFDPQc6tNqmsfiS4EvwUQGm5C5hxQu"
+				"bzz-raw://fe8701251f991e4dd07aad1a3761c4ee30545b8f1db1c5ad2ba8cef943c507ba",
+				"dweb:/ipfs/QmUrRtbK3p3wVUEpc3KHWqgFeick7hhoDgku4goM9BUWVC"
 			]
 		}
 	},

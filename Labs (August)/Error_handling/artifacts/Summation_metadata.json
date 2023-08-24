@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.21+commit.d9974bed"
+		"version": "0.8.18+commit.87f61d96"
 	},
 	"language": "Solidity",
 	"output": {
@@ -45,7 +45,7 @@
 		"compilationTarget": {
 			"Labs (August)/Error_handling/assert.sol": "Summation"
 		},
-		"evmVersion": "shanghai",
+		"evmVersion": "paris",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -58,11 +58,11 @@
 	},
 	"sources": {
 		"Labs (August)/Error_handling/assert.sol": {
-			"keccak256": "0xe15bdf218dd28d93658de5247408d51fd706c3dbd1f35be6c5498f3c628b01fc",
+			"keccak256": "0x0ade9a2c217818d3dbee589139931d62ec686f2c2f46daaae2e14e9dc3cedc15",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://a3ada88ac1ca1e66e89669034a7f8b99932cbae6ea76db3b912781515254abe4",
-				"dweb:/ipfs/QmcS9bLVyDmYii4t6QEStKZF3rxy2VRHSpKuZ5QpnJyemW"
+				"bzz-raw://66736e3778f81cdb5e80dec0bcfa863ab3389979ca0bc8932ba00b00d66fed04",
+				"dweb:/ipfs/QmZ4FUwbLbvV3ALbBueyGDUoPTFoWrjzwQy69Rs8gxJd51"
 			]
 		}
 	},
