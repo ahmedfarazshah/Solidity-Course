@@ -6,7 +6,7 @@ contract Student {
     string private stdName;
  
     uint private stdRollNum;
-    uint public fine;
+    // uint public fine;
     // setting values of state variables
  
     constructor (string memory name,uint rollNum) {
@@ -21,7 +21,7 @@ contract StudentsList {
 
     constructor () {
     Student newStudent = new Student("Burak", 20);
-    students.push(newStudent); 
+    students.push(newStudent); //this is just a instance
     }
 
     
@@ -44,25 +44,18 @@ contract HMS{       //Hospital Management System
 
 contract patientlist{
     
-    HMS[] public list; 
-    
-    constructor (){
-    HMS newpati = new HMS('John',33,'headache');
-    list.push(newpati);
-    }
-
-    HMS newpatients = new HMS('John',33,'fever');
+    HMS[] public list;   
 
 
 
-    function newIn(string memory _name,uint _age, string memory _disease)public {
+    // we cant use function instead of the constructor because we want to add the value in the runtime
+    // function newIn(string memory _name,uint _age, string memory _disease)public {
         
 
 
 
-    }
-
 }
+
 
 
 

@@ -20,19 +20,6 @@
 				],
 				"stateMutability": "nonpayable",
 				"type": "constructor"
-			},
-			{
-				"inputs": [],
-				"name": "fine",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -48,7 +35,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Labs (August)/try_catch_library/newKeyword.sol": "Student"
+			"Labs (August)/try_catch_library/new_composition.sol": "Student"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -62,12 +49,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Labs (August)/try_catch_library/newKeyword.sol": {
-			"keccak256": "0xdb509c5e33e9dbf5c4174fd2569a5cb1a9f07203e26d5dd32ee24eb0b3b1d973",
+		"Labs (August)/try_catch_library/new_composition.sol": {
+			"keccak256": "0xf30ae3709d60fb2c4372b2d953ff01d619489bccab036d7d837a5e9ed64fefeb",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://1bd0f7015b044df60c5eea1d0ee361cd06f9b24c8738d399876afbaea20e0b86",
-				"dweb:/ipfs/QmecWSNXJHVUCAXbx3bATb8TeyCSVWvpvEV2C77jhuXYgF"
+				"bzz-raw://c3fb0dc9812a9cf6a6dfaa3b2b1dde653438cf555a78343fd2ad92d65d58b5ed",
+				"dweb:/ipfs/QmeTBW8sGdStZQLrJv3iryiidJYQxUuKbosWgB5CkjMsG2"
 			]
 		}
 	},
