@@ -6,29 +6,26 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "string",
-						"name": "name",
-						"type": "string"
-					},
-					{
-						"internalType": "uint256",
-						"name": "rollNum",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
 				"inputs": [],
-				"name": "fine",
+				"name": "number",
 				"outputs": [
 					{
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "person",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
 					}
 				],
 				"stateMutability": "view",
@@ -48,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Labs (August)/New (keyword)/file.sol": "Student"
+			"Labs (August)/New (keyword)/check.sol": "first"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -62,12 +59,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Labs (August)/New (keyword)/file.sol": {
-			"keccak256": "0xdb509c5e33e9dbf5c4174fd2569a5cb1a9f07203e26d5dd32ee24eb0b3b1d973",
+		"Labs (August)/New (keyword)/check.sol": {
+			"keccak256": "0x30dd94235d0b995b2dd3d35952c3e20885cac93526185552afd1ab0f492484f9",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://1bd0f7015b044df60c5eea1d0ee361cd06f9b24c8738d399876afbaea20e0b86",
-				"dweb:/ipfs/QmecWSNXJHVUCAXbx3bATb8TeyCSVWvpvEV2C77jhuXYgF"
+				"bzz-raw://e13c6d3599ca6b866cd77770269e869a10eb999617cbcbc7cff8bcf5ba13b498",
+				"dweb:/ipfs/QmeWdXah2U9Bo6BHxTXs46r6uUFfYRornsAzFhWNodV65q"
 			]
 		}
 	},
