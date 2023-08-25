@@ -6,28 +6,45 @@
 	"output": {
 		"abi": [
 			{
-				"anonymous": false,
-				"inputs": [
+				"inputs": [],
+				"name": "make",
+				"outputs": [
 					{
-						"indexed": false,
 						"internalType": "string",
-						"name": "message",
+						"name": "",
 						"type": "string"
 					}
 				],
-				"name": "Log",
-				"type": "event"
-			},
-			{
-				"inputs": [],
-				"name": "demo",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "temp",
+				"name": "model",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_make",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_model",
+						"type": "string"
+					}
+				],
+				"name": "vehicle",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -46,7 +63,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Labs (August)/VisibilityxInhertance/hybrid_inheritace.sol": "Car"
+			"Labs (August)/VisibilityxInhertance/file_inheritance.sol": "Car"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -60,12 +77,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Labs (August)/VisibilityxInhertance/hybrid_inheritace.sol": {
-			"keccak256": "0xe8a2500f253f561be0a056dfd81ecd0abe5309e723b381edb3fbb61b9d2427dd",
+		"Labs (August)/VisibilityxInhertance/file_inheritance.sol": {
+			"keccak256": "0x0667f5a6c94e12c53d2315c91f3e21230e595e030ca20460d9af22d2012ae90b",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://548f98c762f2f40b68016f04fc4452800837375d8d109d6dfe62f3265292551e",
-				"dweb:/ipfs/QmPkHJrRpvseDLERUYH3CPLRtEc582hgNNppZgwCnNZbAa"
+				"bzz-raw://32e634344c78a20f6d1b5e79268802bfb4e084c00d45d5f209afc34c2a587f3d",
+				"dweb:/ipfs/QmTX2m5GTa4gJPyc8TCKfr9VbqNir2yJx6KSsUvcv1eg1G"
 			]
 		}
 	},

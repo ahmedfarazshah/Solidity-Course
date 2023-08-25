@@ -6,23 +6,7 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "string",
-						"name": "_name",
-						"type": "string"
-					},
-					{
-						"internalType": "uint256",
-						"name": "_age",
-						"type": "uint256"
-					},
-					{
-						"internalType": "string",
-						"name": "_disease",
-						"type": "string"
-					}
-				],
+				"inputs": [],
 				"stateMutability": "nonpayable",
 				"type": "constructor"
 			},
@@ -64,6 +48,38 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "patients",
+				"outputs": [
+					{
+						"internalType": "contract HMS",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "show",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -79,7 +95,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Labs (August)/try_catch_library/new_composition.sol": "HMS"
+			"Labs (August)/try_catch_library/new_composition.sol": "person"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -94,11 +110,11 @@
 	},
 	"sources": {
 		"Labs (August)/try_catch_library/new_composition.sol": {
-			"keccak256": "0x1599e0c902697596558a021ce8668df7f5e13dfdd7273d8f40f0398b8dbc9b63",
+			"keccak256": "0x13bd52e9b5049e7f97482118671da07ab2f70e5317eedf81d16d614a2a0bd020",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://912269d6f7b919846961f2c3e0756c36f4f3d55a485f261758ece5040a0f931d",
-				"dweb:/ipfs/Qmeug4tXcgKkyDsK6WMAV1HDtYSybifjCKuninpqSau2Xz"
+				"bzz-raw://e272e2b5b20987b36bbc6c1cd7923f44ab35a527418e7de45ea7d7d33690188d",
+				"dweb:/ipfs/QmddsjDcxfkJ2dJMWzZnqrN1y1bxTjLKxQQq22MP3JY7aL"
 			]
 		}
 	},

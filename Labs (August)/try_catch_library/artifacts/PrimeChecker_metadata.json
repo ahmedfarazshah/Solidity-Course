@@ -8,18 +8,32 @@
 			{
 				"inputs": [
 					{
-						"internalType": "string",
-						"name": "name",
-						"type": "string"
-					},
-					{
 						"internalType": "uint256",
-						"name": "rollNum",
+						"name": "a",
 						"type": "uint256"
 					}
 				],
 				"stateMutability": "nonpayable",
 				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
+					}
+				],
+				"name": "onlyPrime",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "success",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -35,7 +49,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Labs (August)/try_catch_library/new_composition.sol": "Student"
+			"Labs (August)/try_catch_library/try_catch.sol": "PrimeChecker"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -49,12 +63,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Labs (August)/try_catch_library/new_composition.sol": {
-			"keccak256": "0x1599e0c902697596558a021ce8668df7f5e13dfdd7273d8f40f0398b8dbc9b63",
+		"Labs (August)/try_catch_library/try_catch.sol": {
+			"keccak256": "0x8534ae1b830f01265aacb0c3a8b6ea97a806076471c6041a55ce9bfa079d9374",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://912269d6f7b919846961f2c3e0756c36f4f3d55a485f261758ece5040a0f931d",
-				"dweb:/ipfs/Qmeug4tXcgKkyDsK6WMAV1HDtYSybifjCKuninpqSau2Xz"
+				"bzz-raw://e9e2f67ceffc3593810225c3e355df931d0fc3304a1bd63456c552b97100dd96",
+				"dweb:/ipfs/QmPV7ajBoBzkrqHPN2VYxFuHj3rEMdgL9SHmyJXqN2FvNz"
 			]
 		}
 	},

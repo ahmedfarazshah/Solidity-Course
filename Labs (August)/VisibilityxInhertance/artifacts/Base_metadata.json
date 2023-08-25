@@ -6,8 +6,32 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_data",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
 				"inputs": [],
-				"name": "x",
+				"name": "Print",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "data",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -32,7 +56,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Labs (August)/VisibilityxInhertance/file_inheritance.sol": "Base"
+			"Labs (August)/VisibilityxInhertance/constructor.sol": "Base"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -46,12 +70,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Labs (August)/VisibilityxInhertance/file_inheritance.sol": {
-			"keccak256": "0x0667f5a6c94e12c53d2315c91f3e21230e595e030ca20460d9af22d2012ae90b",
+		"Labs (August)/VisibilityxInhertance/constructor.sol": {
+			"keccak256": "0xf643f8781c90a389e0c47538883e4590a90a9dffada1931b17ffbe8311c778e3",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://32e634344c78a20f6d1b5e79268802bfb4e084c00d45d5f209afc34c2a587f3d",
-				"dweb:/ipfs/QmTX2m5GTa4gJPyc8TCKfr9VbqNir2yJx6KSsUvcv1eg1G"
+				"bzz-raw://bc71a2153496cdc2fc0b1ed5c7a1b7c145556a672bc5bf46d31047ef29ca18ec",
+				"dweb:/ipfs/QmbQzSVeESZeqDm1hg5Gyp7W5fdpANRU5P64MA8DLLk3Do"
 			]
 		}
 	},
