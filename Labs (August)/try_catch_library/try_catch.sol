@@ -75,3 +75,37 @@ contract TryCatch {
     
     }
 }
+
+// Task
+
+contract SDiv{
+
+    function divide(uint a, uint b)external pure returns(uint){
+        uint div;
+        div= a/b;
+        require(a>0 && a<=100 || b<a, 'check the conditions and enter values');
+        return div;
+    }
+
+
+}
+contract Try{
+
+    SDiv public div;
+
+    event reg();
+    event CatchByte(bytes data);
+    event regnum(uint number);
+    event failure(string reason);
+
+    function calldivide(uint a , uint b)external{
+        try div.divide(a, b) returns(uint num){
+            emit regnum(num);
+        }catch Error(string memory message){
+            emit failure(message);
+        }catch (bytes memory reason) {
+            emit CatchByte(reason);
+        }
+    }
+}
+

@@ -6,11 +6,6 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
 				"anonymous": false,
 				"inputs": [
 					{
@@ -29,37 +24,31 @@
 					{
 						"indexed": false,
 						"internalType": "string",
-						"name": "message",
+						"name": "reason",
 						"type": "string"
 					}
 				],
-				"name": "CatchEvent",
+				"name": "failure",
 				"type": "event"
 			},
 			{
 				"anonymous": false,
 				"inputs": [],
-				"name": "SuccessEvent",
+				"name": "reg",
 				"type": "event"
 			},
 			{
+				"anonymous": false,
 				"inputs": [
 					{
+						"indexed": false,
 						"internalType": "uint256",
-						"name": "amount",
+						"name": "number",
 						"type": "uint256"
 					}
 				],
-				"name": "execute",
-				"outputs": [
-					{
-						"internalType": "bool",
-						"name": "success",
-						"type": "bool"
-					}
-				],
-				"stateMutability": "nonpayable",
-				"type": "function"
+				"name": "regnum",
+				"type": "event"
 			},
 			{
 				"inputs": [
@@ -67,17 +56,29 @@
 						"internalType": "uint256",
 						"name": "a",
 						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
 					}
 				],
-				"name": "executeNew",
+				"name": "calldivide",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "div",
 				"outputs": [
 					{
-						"internalType": "bool",
-						"name": "success",
-						"type": "bool"
+						"internalType": "contract SDiv",
+						"name": "",
+						"type": "address"
 					}
 				],
-				"stateMutability": "nonpayable",
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -94,7 +95,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Labs (August)/try_catch_library/try_catch.sol": "TryCatch"
+			"Labs (August)/try_catch_library/try_catch.sol": "Try"
 		},
 		"evmVersion": "paris",
 		"libraries": {},

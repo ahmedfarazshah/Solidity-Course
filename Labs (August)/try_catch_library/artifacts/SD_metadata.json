@@ -11,25 +11,19 @@
 						"internalType": "uint256",
 						"name": "a",
 						"type": "uint256"
-					}
-				],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
-				"inputs": [
+					},
 					{
 						"internalType": "uint256",
 						"name": "b",
 						"type": "uint256"
 					}
 				],
-				"name": "onlyPrime",
+				"name": "divide2",
 				"outputs": [
 					{
-						"internalType": "bool",
-						"name": "success",
-						"type": "bool"
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "pure",
@@ -49,7 +43,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Labs (August)/try_catch_library/try_catch.sol": "PrimeChecker"
+			"Labs (August)/try_catch_library/try_catch.sol": "SD"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -64,11 +58,11 @@
 	},
 	"sources": {
 		"Labs (August)/try_catch_library/try_catch.sol": {
-			"keccak256": "0x7f62f293567d2abb0456b05b3d7c181c890c960c238682afd5eddedb400514ad",
+			"keccak256": "0x02e42250d042d4c4ff85423b78c3d8ee2e434b4765b2840333386b7149b84f9c",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://c97c8ea622b2c131d429dcc140144f24d43cba93cac3b5a6a6e1122283ac6ac1",
-				"dweb:/ipfs/QmTEZgh64VGAN7j8AfAwYUGogEiGG2TiYZtF5u3uqcWHh4"
+				"bzz-raw://7ee51620958f01c4f1d45cdebe1baa176aeb227e4e9c8829f68b5e17e061ea49",
+				"dweb:/ipfs/QmcANmtgHaAy1Ch1q9TpwBF5sXfHmvSvTMrSSHGFZa4D6F"
 			]
 		}
 	},
