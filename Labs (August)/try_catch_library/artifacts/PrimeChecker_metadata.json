@@ -64,11 +64,11 @@
 	},
 	"sources": {
 		"Labs (August)/try_catch_library/try_catch.sol": {
-			"keccak256": "0x7f62f293567d2abb0456b05b3d7c181c890c960c238682afd5eddedb400514ad",
+			"keccak256": "0x4e9877201c24cd7a320998101a4aa0101ecac48d8111fc933cd6abd03afd47bb",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://c97c8ea622b2c131d429dcc140144f24d43cba93cac3b5a6a6e1122283ac6ac1",
-				"dweb:/ipfs/QmTEZgh64VGAN7j8AfAwYUGogEiGG2TiYZtF5u3uqcWHh4"
+				"bzz-raw://32004ff40dacb8edf861e8a2ec16f7e85ba48ea8174c7005213c99d9f7f90fd7",
+				"dweb:/ipfs/QmYdeFptUpwMZ2NYfCjSxeYz4pnxFhx5q942fgiuAHsuPc"
 			]
 		}
 	},

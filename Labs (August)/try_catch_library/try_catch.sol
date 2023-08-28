@@ -81,9 +81,9 @@ contract TryCatch {
 contract SDiv{
 
     function divide(uint a, uint b)external pure returns(uint){
+        require(a>0 && a<=100 && b<a, "check the conditions and enter values");
         uint div;
         div= a/b;
-        require(a>0 && a<=100 || b<a, 'check the conditions and enter values');
         return div;
     }
 
@@ -91,12 +91,15 @@ contract SDiv{
 }
 contract Try{
 
-    SDiv public div;
+    SDiv public div =new SDiv();
+    // when new keyword is used you are pointing it to the desired contract.
 
+    // constructor (){}
     event reg();
     event CatchByte(bytes data);
     event regnum(uint number);
     event failure(string reason);
+    event log();
 
     function calldivide(uint a , uint b)external{
         try div.divide(a, b) returns(uint num){
@@ -108,4 +111,7 @@ contract Try{
         }
     }
 }
+
+
+
 
