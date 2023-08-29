@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					}
+				],
+				"name": "naming",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "person",
+						"type": "string"
+					}
+				],
+				"name": "what",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Labs (August)/try_catch_library/library.sol": "kufe"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Labs (August)/try_catch_library/library.sol": {
+			"keccak256": "0x92c401fb312d993b2d3a3db27492a8bd12f0a27db6a4145effa238b4669436a9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://831b9abd89cf8049813a89fea74e647af2df21b77d8042e0a10acbe5599e47d1",
+				"dweb:/ipfs/Qmcy8peYiJAbdjMmfCNw8XAf22DVxZPL4gNzSNBHefmJPX"
+			]
+		}
+	},
+	"version": 1
+}

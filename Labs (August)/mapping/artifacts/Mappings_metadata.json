@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.21+commit.d9974bed"
+		"version": "0.8.18+commit.87f61d96"
 	},
 	"language": "Solidity",
 	"output": {
@@ -130,7 +130,7 @@
 		"compilationTarget": {
 			"Labs (August)/mapping/file1.sol": "Mappings"
 		},
-		"evmVersion": "shanghai",
+		"evmVersion": "paris",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -143,11 +143,11 @@
 	},
 	"sources": {
 		"Labs (August)/mapping/file1.sol": {
-			"keccak256": "0xaa118af16ff3875f7e20dbe725d0e2bf8beb1aa4bf27f51451d73b2cfc7652ee",
+			"keccak256": "0xebf93cf6852bac58721cf439e69e845044f4980a8576ff1cdaaf7b2d1b768c1f",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://2aed6e1a39d0c8421de2a6115ffafbbe461ec82105ddd4b517cebac2de0fc91b",
-				"dweb:/ipfs/QmU4CLdBoZV8s88oq7tDnMqqvw58o1fLBHymRqiPDUbYeD"
+				"bzz-raw://a2b57ddc41a5654051f3f9afd9cf1b31e04947a070af44a76f1236e2d0013a84",
+				"dweb:/ipfs/Qmd2SjovngaoVCtaTgVAcSQjcCzgHjqnd8DJFSh8AYhnnB"
 			]
 		}
 	},
