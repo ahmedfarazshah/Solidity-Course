@@ -1,0 +1,67 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "name",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Labs (August)/try_catch_library/import.sol": "Callee"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Labs (August)/try_catch_library/import.sol": {
+			"keccak256": "0x23d88c145b56a1b8cf3a0a355ca6d6aa3c3ee91c560818f29c5ddc51da7a434d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d3f22b59da17753372e57fca838d07ec015a95726a6195a6dfccab4a45a55276",
+				"dweb:/ipfs/QmaAT15TPUargnC9F4rUg6gyXDHyvARv1XWrJnoVzkjx3e"
+			]
+		},
+		"Labs (August)/try_catch_library/library.sol": {
+			"keccak256": "0x0e8e36b1b4ab9dc277700434440a0529a939a9034c5230fa0067eeb1557f7540",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c33935e80db01c0ff1ef40156298425a3e53d44f1c6b6b7140497900f6f62dc8",
+				"dweb:/ipfs/QmYepCgGvfQJTt73iG9Y1EJoYTnWCd2H2m9rZPr4k4DH8f"
+			]
+		}
+	},
+	"version": 1
+}
