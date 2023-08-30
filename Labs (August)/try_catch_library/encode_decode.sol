@@ -131,10 +131,10 @@ contract Serilize_Voting{
     function voterID(bytes memory data)public pure returns (address,uint,string memory,uint[] memory){
         
         return abi.decode(data,(address,uint,string,uint[]));
-        
+
         // use destruct : , (empty values with in commas)
     }
-
-
 }
+
+
 

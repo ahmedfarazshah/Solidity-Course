@@ -102,11 +102,11 @@
 	},
 	"sources": {
 		"Labs (August)/try_catch_library/encode_decode.sol": {
-			"keccak256": "0x45bdef945ef7d6c1056382bfdd195131520802032eb8a32ed1174319d6f1631e",
+			"keccak256": "0x4ab8f600032d7ce15ee909730fdc0515bc514420bb68b86a98e7011f7860a000",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://9c45e8a055220a275842cb6331b7a932d2e15f861f7a2cc3e618553b4b7c59ba",
-				"dweb:/ipfs/QmUUwXvZq57D15hsXQzRbRDCBFC4Ci2K79DT3B1esNiUqx"
+				"bzz-raw://587dec275cb2b45642be6799de4faeedae08d85c041b1129eae6e4d6df4e44e6",
+				"dweb:/ipfs/Qmdo2n5hnmqNsNhm9cHMgpqKQNmZMiw6gDUKpWawLT4yHc"
 			]
 		}
 	},
