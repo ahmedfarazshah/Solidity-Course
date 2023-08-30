@@ -1,0 +1,114 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "addr",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256[3]",
+						"name": "DOB",
+						"type": "uint256[3]"
+					}
+				],
+				"name": "voteEncoder",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "file",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes",
+						"name": "data",
+						"type": "bytes"
+					}
+				],
+				"name": "voterID",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Labs (August)/try_catch_library/encode_decode.sol": "Serilize_Voting"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Labs (August)/try_catch_library/encode_decode.sol": {
+			"keccak256": "0x45bdef945ef7d6c1056382bfdd195131520802032eb8a32ed1174319d6f1631e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9c45e8a055220a275842cb6331b7a932d2e15f861f7a2cc3e618553b4b7c59ba",
+				"dweb:/ipfs/QmUUwXvZq57D15hsXQzRbRDCBFC4Ci2K79DT3B1esNiUqx"
+			]
+		}
+	},
+	"version": 1
+}
