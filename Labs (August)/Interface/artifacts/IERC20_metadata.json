@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.21+commit.d9974bed"
+		"version": "0.8.18+commit.87f61d96"
 	},
 	"language": "Solidity",
 	"output": {
@@ -204,7 +204,7 @@
 		"compilationTarget": {
 			"Labs (August)/Interface/file.sol": "IERC20"
 		},
-		"evmVersion": "shanghai",
+		"evmVersion": "paris",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -217,11 +217,11 @@
 	},
 	"sources": {
 		"Labs (August)/Interface/file.sol": {
-			"keccak256": "0x552b0aced858d3809221779b050f006090ba9ed00f3e1588320a2947518deb68",
+			"keccak256": "0xe66d2ae4420a9e97906c531b33305567372d0afb2894059b33dc9229d10582d1",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://3052f06ad2639e64b9ebb391e99e274853e13193f2184a5ffc836b66a6ddbaa1",
-				"dweb:/ipfs/QmPeCqbmW3BiQFTWjSbg8AMtL3U6tnS4Y5UufrLPvzEu3e"
+				"bzz-raw://26d68c17d6d1fad3c270fd7b22a50e89c71ce5ac4b148c893364e520ebb50e5c",
+				"dweb:/ipfs/QmaL3gfh19G7FxkYvQtrSDyDwyjeguBdcDJmgPzPWJtDt3"
 			]
 		}
 	},

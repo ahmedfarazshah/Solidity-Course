@@ -91,7 +91,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Labs (August)/try_catch_library/library.sol": "calculation"
+			"Labs (August)/try_catch_library_21/library.sol": "calculation"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -105,12 +105,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Labs (August)/try_catch_library/library.sol": {
-			"keccak256": "0x0e8e36b1b4ab9dc277700434440a0529a939a9034c5230fa0067eeb1557f7540",
+		"Labs (August)/try_catch_library_21/library.sol": {
+			"keccak256": "0x6dd3633334735e6804f3737ffc3264025d76f33e37ebbda7b1603670c912dd39",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://c33935e80db01c0ff1ef40156298425a3e53d44f1c6b6b7140497900f6f62dc8",
-				"dweb:/ipfs/QmYepCgGvfQJTt73iG9Y1EJoYTnWCd2H2m9rZPr4k4DH8f"
+				"bzz-raw://1ebacbff8c6c3eb91695a452ad7ce0c97a833d0c98dbbe6e7115298868074ee1",
+				"dweb:/ipfs/QmaXqrY6wJf8a8SqdXq5u1Z2Vz9AvUb5d8Nj3uf1Fr3EvZ"
 			]
 		}
 	},
