@@ -24,18 +24,24 @@ interface IERC20 {
 
 
 // task 1
+
 interface Calculator {
- function getResult() external view returns(uint);
-}
-contract Temp is Calculator {
- constructor() {}
- function getResult() external pure returns(uint result){
- uint a = 2;
- uint b = 5;
- result = b / a;
- }
+     function getResult() external view returns(uint);
 }
 
+contract Temp is Calculator {
+
+    constructor() {}
+
+    function getResult() external pure returns(uint result){
+    uint a = 2;
+    uint b = 5;
+    result = b / a;
+    }
+}
+
+
+// task 2
 
 
 
