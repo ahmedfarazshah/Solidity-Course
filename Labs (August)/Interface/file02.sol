@@ -19,8 +19,8 @@ interface ICounter {
 
 }
 
-contract MyContract { // it will only deploy the contract from which the interface has got the values or functions
-
+contract MyContract { // it will only deploy the contract from which the interface has got the values or functions and that contracts that are imported and or above the contract that will calculate other contracts value 
+                        // this happens due to the compiler as it compiles from down to bottom
     function squareCounter(address _counter) external {
         ICounter(_counter).square(); // you cant directly call an contract's function so you use an interface that works like a common API.
     }
