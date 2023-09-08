@@ -21,7 +21,6 @@ contract SumContract{
 }
 
 contract LibraryClient {
-    
     function GetExponential(uint256 firstVal, uint256 secondVal)
         public pure returns(uint256) {
         return Explibrary.exponential(firstVal, secondVal);

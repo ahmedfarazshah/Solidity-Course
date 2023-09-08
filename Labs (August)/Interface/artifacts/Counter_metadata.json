@@ -54,11 +54,11 @@
 	},
 	"sources": {
 		"Labs (August)/Interface/file02.sol": {
-			"keccak256": "0x240977bd50f85c603df91cc8e49530c20304f3505a34a53c186dd8613f5aae49",
+			"keccak256": "0x2f6454217b8ebdfa041b90417db0f08b7246075d1ca80e1f316123ac3874d8af",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://f299901a5c62c2a5ad6cd64d46165562f62245fe7c90d64eca41022cd9d99059",
-				"dweb:/ipfs/QmQNke931ioSCqURkxib7qAxEZJZsLyHufFnSGEZTWdTq3"
+				"bzz-raw://f8f38cfe0dbfddfb63d8c256f56a69de7a0378981ef75fcb2baf8236315e68f7",
+				"dweb:/ipfs/QmaW9UAoJq5m2XH8uU9GEvRpnsZS19AzHH4SM8h8j1SGVS"
 			]
 		}
 	},

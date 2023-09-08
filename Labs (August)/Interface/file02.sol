@@ -19,13 +19,19 @@ interface ICounter {
 
 }
 
-contract MyContract {
+contract MyContract { // it will only deploy the contract from which the interface has got the values or functions
 
     function squareCounter(address _counter) external {
-        ICounter(_counter).square(); 
+        ICounter(_counter).square(); // you cant directly call an contract's function so you use an interface that works like a common API.
     }
-    
     function getCount(address _counter) external view returns (uint) {
-         return ICounter(_counter).count(); }
+         return ICounter(_counter).count(); 
+    }
+}
 
+contract file{
+    uint public numbers=3;
+    function doubleup()external {
+        numbers = numbers**2;
+    }
 }

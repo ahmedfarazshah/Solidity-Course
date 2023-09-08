@@ -7,7 +7,14 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "count",
+				"name": "doubleup",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "numbers",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -16,13 +23,6 @@
 					}
 				],
 				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "square",
-				"outputs": [],
-				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -39,7 +39,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Labs (August)/Interface/file02.sol": "ICounter"
+			"Labs (August)/Interface/file02.sol": "file"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
